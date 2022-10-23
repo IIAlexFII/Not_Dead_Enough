@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Not_Dead_Enough.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{BD574907-D5D6-40E1-8C49-7C89A5F44FD4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Not_Dead_Enough.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Not_Dead_EnoughEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{B26BFB06-3ED5-461F-8060-84AB73594D98}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Not_Dead_Enough">
+      <UniqueIdentifier>{ED990720-E3E8-4A4B-AE8B-6984010A77F5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Not_Dead_Enough\Not_Dead_Enough.Build.cs">
+      <Filter>Source\Not_Dead_Enough</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Not_Dead_Enough\Not_Dead_Enough.cpp">
+      <Filter>Source\Not_Dead_Enough</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Not_Dead_Enough\Not_Dead_Enough.h">
+      <Filter>Source\Not_Dead_Enough</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Not_Dead_Enough\Not_Dead_EnoughGameModeBase.cpp">
+      <Filter>Source\Not_Dead_Enough</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Not_Dead_Enough\Not_Dead_EnoughGameModeBase.h">
+      <Filter>Source\Not_Dead_Enough</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

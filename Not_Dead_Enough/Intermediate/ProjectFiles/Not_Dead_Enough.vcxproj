@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Invalid|Win32">
+      <Configuration>Invalid</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Invalid|x64">
+      <Configuration>Invalid</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame|Win32">
+      <Configuration>DebugGame</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame|x64">
+      <Configuration>DebugGame</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Editor|Win32">
+      <Configuration>DebugGame_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Editor|x64">
+      <Configuration>DebugGame_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development|Win32">
+      <Configuration>Development</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development|x64">
+      <Configuration>Development</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Editor|Win32">
+      <Configuration>Development_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Editor|x64">
+      <Configuration>Development_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping|Win32">
+      <Configuration>Shipping</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping|x64">
+      <Configuration>Shipping</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{91C6DBA2-5A79-4D70-8CC9-71255674E59A}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <RootNamespace>Not_Dead_Enough</RootNamespace>
+    <PlatformToolset>v143</PlatformToolset>
+    <MinimumVisualStudioVersion>17.0</MinimumVisualStudioVersion>
+    <NMakeUseOemCodePage>true</NMakeUseOemCodePage>
+    <TargetRuntime>Native</TargetRuntime>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectCapability Include="MLProject" />
+    <PropertyPageSchema Include="$(LOCALAPPDATA)\Microsoft\VisualStudio\MagicLeap\debugger.xaml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|Win32'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>D:\Programs\UE_4.27\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>D:\Programs\UE_4.27\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>D:\Programs\UE_4.27\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>D:\Programs\UE_4.27\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\Programs\UE_4.27\Engine\Build\BatchFiles\Build.bat Not_Dead_Enough Win32 DebugGame -Project="$(SolutionDir)Not_Dead_Enough.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\Programs\UE_4.27\Engine\Build\BatchFiles\Rebuild.bat Not_Dead_Enough Win32 DebugGame -Project="$(SolutionDir)Not_Dead_Enough.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\Programs\UE_4.27\Engine\Build\BatchFiles\Clean.bat Not_Dead_Enough Win32 DebugGame -Project="$(SolutionDir)Not_Dead_Enough.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win32\Not_Dead_Enough-Win32-DebugGame.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\Programs\UE_4.27\Engine\Build\BatchFiles\Build.bat Not_Dead_Enough Win64 DebugGame -Project="$(SolutionDir)Not_Dead_Enough.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\Programs\UE_4.27\Engine\Build\BatchFiles\Rebuild.bat Not_Dead_Enough Win64 DebugGame -Project="$(SolutionDir)Not_Dead_Enough.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\Programs\UE_4.27\Engine\Build\BatchFiles\Clean.bat Not_Dead_Enough Win64 DebugGame -Project="$(SolutionDir)Not_Dead_Enough.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\Not_Dead_Enough-Win64-DebugGame.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\Programs\UE_4.27\Engine\Build\BatchFiles\Build.bat Not_Dead_EnoughEditor Win64 DebugGame -Project="$(SolutionDir)Not_Dead_Enough.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\Programs\UE_4.27\Engine\Build\BatchFiles\Rebuild.bat Not_Dead_EnoughEditor Win64 DebugGame -Project="$(SolutionDir)Not_Dead_Enough.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\Programs\UE_4.27\Engine\Build\BatchFiles\Clean.bat Not_Dead_EnoughEditor Win64 DebugGame -Project="$(SolutionDir)Not_Dead_Enough.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\Programs\UE_4.27\Engine\Binaries\Win64\UE4Editor-Win64-DebugGame.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\Programs\UE_4.27\Engine\Build\BatchFiles\Build.bat Not_Dead_Enough Win32 Development -Project="$(SolutionDir)Not_Dead_Enough.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\Programs\UE_4.27\Engine\Build\BatchFiles\Rebuild.bat Not_Dead_Enough Win32 Development -Project="$(SolutionDir)Not_Dead_Enough.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\Programs\UE_4.27\Engine\Build\BatchFiles\Clean.bat Not_Dead_Enough Win32 Development -Project="$(SolutionDir)Not_Dead_Enough.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win32\Not_Dead_Enough.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\Programs\UE_4.27\Engine\Build\BatchFiles\Build.bat Not_Dead_Enough Win64 Development -Project="$(SolutionDir)Not_Dead_Enough.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\Programs\UE_4.27\Engine\Build\BatchFiles\Rebuild.bat Not_Dead_Enough Win64 Development -Project="$(SolutionDir)Not_Dead_Enough.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\Programs\UE_4.27\Engine\Build\BatchFiles\Clean.bat Not_Dead_Enough Win64 Development -Project="$(SolutionDir)Not_Dead_Enough.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\Not_Dead_Enough.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\Programs\UE_4.27\Engine\Build\BatchFiles\Build.bat Not_Dead_EnoughEditor Win64 Development -Project="$(SolutionDir)Not_Dead_Enough.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\Programs\UE_4.27\Engine\Build\BatchFiles\Rebuild.bat Not_Dead_EnoughEditor Win64 Development -Project="$(SolutionDir)Not_Dead_Enough.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\Programs\UE_4.27\Engine\Build\BatchFiles\Clean.bat Not_Dead_EnoughEditor Win64 Development -Project="$(SolutionDir)Not_Dead_Enough.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\Programs\UE_4.27\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\Programs\UE_4.27\Engine\Build\BatchFiles\Build.bat Not_Dead_Enough Win32 Shipping -Project="$(SolutionDir)Not_Dead_Enough.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\Programs\UE_4.27\Engine\Build\BatchFiles\Rebuild.bat Not_Dead_Enough Win32 Shipping -Project="$(SolutionDir)Not_Dead_Enough.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\Programs\UE_4.27\Engine\Build\BatchFiles\Clean.bat Not_Dead_Enough Win32 Shipping -Project="$(SolutionDir)Not_Dead_Enough.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win32\Not_Dead_Enough-Win32-Shipping.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\Programs\UE_4.27\Engine\Build\BatchFiles\Build.bat Not_Dead_Enough Win64 Shipping -Project="$(SolutionDir)Not_Dead_Enough.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\Programs\UE_4.27\Engine\Build\BatchFiles\Rebuild.bat Not_Dead_Enough Win64 Shipping -Project="$(SolutionDir)Not_Dead_Enough.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\Programs\UE_4.27\Engine\Build\BatchFiles\Clean.bat Not_Dead_Enough Win64 Shipping -Project="$(SolutionDir)Not_Dead_Enough.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\Not_Dead_Enough-Win64-Shipping.exe</NMakeOutput>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <IncludePath>$(IncludePath);D:\Programs\UE_4.27\Engine\Source;..\Build\Win64\UE4Editor\Inc\Not_Dead_Enough;..\..\Source;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Core;D:\Programs\UE_4.27\Engine\Source\Runtime;D:\Programs\UE_4.27\Engine\Source\Runtime\TraceLog\Public;D:\Programs\UE_4.27\Engine\Source\Runtime\Core\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\TraceLog;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject;D:\Programs\UE_4.27\Engine\Source\Runtime\CoreUObject\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine;D:\Programs\UE_4.27\Engine\Source\Runtime\Engine\Classes;D:\Programs\UE_4.27\Engine\Source\Runtime\Engine\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NetCore;D:\Programs\UE_4.27\Engine\Source\Runtime\Net;D:\Programs\UE_4.27\Engine\Source\Runtime\Net\Core\Classes;D:\Programs\UE_4.27\Engine\Source\Runtime\Net\Core\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ApplicationCore;D:\Programs\UE_4.27\Engine\Source\Runtime\ApplicationCore\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\RHI;D:\Programs\UE_4.27\Engine\Source\Runtime\RHI\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Json;D:\Programs\UE_4.27\Engine\Source\Runtime\Json\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore;D:\Programs\UE_4.27\Engine\Source\Runtime\SlateCore\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\InputCore;D:\Programs\UE_4.27\Engine\Source\Runtime\InputCore\Classes;D:\Programs\UE_4.27\Engine\Source\Runtime\InputCore\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Slate;D:\Programs\UE_4.27\Engine\Source\Runtime\Slate\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ImageWrapper;D:\Programs\UE_4.27\Engine\Source\Runtime\ImageWrapper\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Messaging;D:\Programs\UE_4.27\Engine\Source\Runtime\Messaging\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MessagingCommon;D:\Programs\UE_4.27\Engine\Source\Runtime\MessagingCommon\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\RenderCore;D:\Programs\UE_4.27\Engine\Source\Runtime\RenderCore\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AnalyticsET;D:\Programs\UE_4.27\Engine\Source\Runtime\Analytics;D:\Programs\UE_4.27\Engine\Source\Runtime\Analytics\AnalyticsET\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Analytics;D:\Programs\UE_4.27\Engine\Source\Runtime\Analytics\Analytics\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Sockets;D:\Programs\UE_4.27\Engine\Source\Runtime\Sockets\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NetCommon;D:\Programs\UE_4.27\Engine\Source\Runtime\Net\Common\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetRegistry;D:\Programs\UE_4.27\Engine\Source\Runtime\AssetRegistry\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EngineMessages;D:\Programs\UE_4.27\Engine\Source\Runtime\EngineMessages\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EngineSettings;D:\Programs\UE_4.27\Engine\Source\Runtime\EngineSettings\Classes;D:\Programs\UE_4.27\Engine\Source\Runtime\EngineSettings\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SynthBenchmark;D:\Programs\UE_4.27\Engine\Source\Runtime\SynthBenchmark\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Renderer;D:\Programs\UE_4.27\Engine\Source\Runtime\Renderer\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTags;D:\Programs\UE_4.27\Engine\Source\Runtime\GameplayTags\Classes;D:\Programs\UE_4.27\Engine\Source\Runtime\GameplayTags\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DeveloperSettings;D:\Programs\UE_4.27\Engine\Source\Runtime\DeveloperSettings\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PacketHandler;D:\Programs\UE_4.27\Engine\Source\Runtime\PacketHandlers;D:\Programs\UE_4.27\Engine\Source\Runtime\PacketHandlers\PacketHandler\Classes;D:\Programs\UE_4.27\Engine\Source\Runtime\PacketHandlers\PacketHandler\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ReliabilityHandlerComponent;D:\Programs\UE_4.27\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioPlatformConfiguration;D:\Programs\UE_4.27\Engine\Source\Runtime\AudioPlatformConfiguration\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshDescription;D:\Programs\UE_4.27\Engine\Source\Runtime\MeshDescription\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\StaticMeshDescription;D:\Programs\UE_4.27\Engine\Source\Runtime\StaticMeshDescription\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PakFile;D:\Programs\UE_4.27\Engine\Source\Runtime\PakFile\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\RSA;D:\Programs\UE_4.27\Engine\Source\Runtime\RSA\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NetworkReplayStreaming;D:\Programs\UE_4.27\Engine\Source\Runtime\NetworkReplayStreaming;D:\Programs\UE_4.27\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PhysicsCore;D:\Programs\UE_4.27\Engine\Source\Runtime\PhysicsCore\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Chaos;D:\Programs\UE_4.27\Engine\Source\Runtime\Experimental;D:\Programs\UE_4.27\Engine\Source\Runtime\Experimental\Chaos\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ChaosCore;D:\Programs\UE_4.27\Engine\Source\Runtime\Experimental\ChaosCore\Public;D:\Programs\UE_4.27\Engine\Source\ThirdParty\Intel;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Voronoi;D:\Programs\UE_4.27\Engine\Source\Runtime\Experimental\Voronoi\Public;D:\Programs\UE_4.27\Engine\Source\ThirdParty;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SignalProcessing;D:\Programs\UE_4.27\Engine\Source\Runtime\SignalProcessing\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioExtensions;D:\Programs\UE_4.27\Engine\Source\Runtime\AudioExtensions\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioMixerCore;D:\Programs\UE_4.27\Engine\Source\Runtime\AudioMixerCore\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PropertyAccess;D:\Programs\UE_4.27\Engine\Source\Runtime\PropertyAccess\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd;D:\Programs\UE_4.27\Engine\Source\Editor;D:\Programs\UE_4.27\Engine\Source\Programs\UnrealLightmass\Public;D:\Programs\UE_4.27\Engine\Source\Developer\Android\AndroidDeviceDetection\Public\Interfaces;D:\Programs\UE_4.27\Engine\Source\Editor\UnrealEd\Classes;D:\Programs\UE_4.27\Engine\Source\Editor\UnrealEd\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DirectoryWatcher;D:\Programs\UE_4.27\Engine\Source\Developer;D:\Programs\UE_4.27\Engine\Source\Developer\DirectoryWatcher\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Documentation;D:\Programs\UE_4.27\Engine\Source\Editor\Documentation\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Projects;D:\Programs\UE_4.27\Engine\Source\Runtime\Projects\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SandboxFile;D:\Programs\UE_4.27\Engine\Source\Runtime\SandboxFile\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EditorStyle;D:\Programs\UE_4.27\Engine\Source\Editor\EditorStyle\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SourceControl;D:\Programs\UE_4.27\Engine\Source\Developer\SourceControl\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEdMessages;D:\Programs\UE_4.27\Engine\Source\Editor\UnrealEdMessages\Classes;D:\Programs\UE_4.27\Engine\Source\Editor\UnrealEdMessages\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayDebugger;D:\Programs\UE_4.27\Engine\Source\Developer\GameplayDebugger\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\BlueprintGraph;D:\Programs\UE_4.27\Engine\Source\Editor\BlueprintGraph\Classes;D:\Programs\UE_4.27\Engine\Source\Editor\BlueprintGraph\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EditorSubsystem;D:\Programs\UE_4.27\Engine\Source\Editor\EditorSubsystem\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HTTP;D:\Programs\UE_4.27\Engine\Source\Runtime\Online;D:\Programs\UE_4.27\Engine\Source\Runtime\Online\HTTP\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealAudio;D:\Programs\UE_4.27\Engine\Source\Runtime\UnrealAudio\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\FunctionalTesting;D:\Programs\UE_4.27\Engine\Source\Developer\FunctionalTesting\Classes;D:\Programs\UE_4.27\Engine\Source\Developer\FunctionalTesting\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AutomationController;D:\Programs\UE_4.27\Engine\Source\Developer\AutomationController\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Localization;D:\Programs\UE_4.27\Engine\Source\Developer\Localization\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioEditor;D:\Programs\UE_4.27\Engine\Source\Editor\AudioEditor\Classes;D:\Programs\UE_4.27\Engine\Source\Editor\AudioEditor\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioMixer;D:\Programs\UE_4.27\Engine\Source\Runtime\AudioMixer\Classes;D:\Programs\UE_4.27\Engine\Source\Runtime\AudioMixer\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\TargetPlatform;D:\Programs\UE_4.27\Engine\Source\Developer\TargetPlatform\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\LevelEditor;D:\Programs\UE_4.27\Engine\Source\Editor\LevelEditor\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Settings;D:\Programs\UE_4.27\Engine\Source\Developer\Settings\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\IntroTutorials;D:\Programs\UE_4.27\Engine\Source\Editor\IntroTutorials\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay;D:\Programs\UE_4.27\Engine\Source\Runtime\HeadMountedDisplay\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\VREditor;D:\Programs\UE_4.27\Engine\Source\Editor\VREditor;D:\Programs\UE_4.27\Engine\Source\Editor\VREditor\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CommonMenuExtensions;D:\Programs\UE_4.27\Engine\Source\Editor\CommonMenuExtensions\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Landscape;D:\Programs\UE_4.27\Engine\Source\Runtime\Landscape\Classes;D:\Programs\UE_4.27\Engine\Source\Runtime\Landscape\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PropertyEditor;D:\Programs\UE_4.27\Engine\Source\Editor\PropertyEditor\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ActorPickerMode;D:\Programs\UE_4.27\Engine\Source\Editor\ActorPickerMode\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SceneDepthPickerMode;D:\Programs\UE_4.27\Engine\Source\Editor\SceneDepthPickerMode\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DetailCustomizations;D:\Programs\UE_4.27\Engine\Source\Editor\DetailCustomizations\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ClassViewer;D:\Programs\UE_4.27\Engine\Source\Editor\ClassViewer\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GraphEditor;D:\Programs\UE_4.27\Engine\Source\Editor\GraphEditor\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\StructViewer;D:\Programs\UE_4.27\Engine\Source\Editor\StructViewer\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ContentBrowser;D:\Programs\UE_4.27\Engine\Source\Editor\ContentBrowser\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ContentBrowserData;D:\Programs\UE_4.27\Engine\Source\Editor\ContentBrowserData\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CollectionManager;D:\Programs\UE_4.27\Engine\Source\Developer\CollectionManager\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UELibSampleRate;D:\Programs\UE_4.27\Engine\Source\ThirdParty\libSampleRate\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NetworkFileSystem;D:\Programs\UE_4.27\Engine\Source\Runtime\NetworkFileSystem\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG;D:\Programs\UE_4.27\Engine\Source\Runtime\UMG\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene;D:\Programs\UE_4.27\Engine\Source\Runtime\MovieScene\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\TimeManagement;D:\Programs\UE_4.27\Engine\Source\Runtime\TimeManagement\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieSceneTracks;D:\Programs\UE_4.27\Engine\Source\Runtime\MovieSceneTracks\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AnimationCore;D:\Programs\UE_4.27\Engine\Source\Runtime\AnimationCore\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PropertyPath;D:\Programs\UE_4.27\Engine\Source\Runtime\PropertyPath\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem;D:\Programs\UE_4.27\Engine\Source\Runtime\NavigationSystem\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshBuilder;D:\Programs\UE_4.27\Engine\Source\Developer\MeshBuilder\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MaterialShaderQualitySettings;D:\Programs\UE_4.27\Engine\Source\Runtime\MaterialShaderQualitySettings\Classes;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\InteractiveToolsFramework;D:\Programs\UE_4.27\Engine\Source\Runtime\Experimental\InteractiveToolsFramework\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ToolMenusEditor;D:\Programs\UE_4.27\Engine\Source\Editor\ToolMenusEditor\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ToolMenus;D:\Programs\UE_4.27\Engine\Source\Developer\ToolMenus\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\XAudio2;D:\Programs\UE_4.27\Engine\Source\Runtime\Windows;D:\Programs\UE_4.27\Engine\Source\Runtime\Windows\XAudio2\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioMixerXAudio2;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetTagsEditor;D:\Programs\UE_4.27\Engine\Source\Editor\AssetTagsEditor\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AddContentDialog;D:\Programs\UE_4.27\Engine\Source\Editor\AddContentDialog\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshUtilities;D:\Programs\UE_4.27\Engine\Source\ThirdParty\Intel\Embree\Embree2140\Win64\include;D:\Programs\UE_4.27\Engine\Source\Developer\MeshUtilities\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshMergeUtilities;D:\Programs\UE_4.27\Engine\Source\Developer\MeshMergeUtilities\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HierarchicalLODUtilities;D:\Programs\UE_4.27\Engine\Source\Developer\HierarchicalLODUtilities\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshReductionInterface;D:\Programs\UE_4.27\Engine\Source\Developer\MeshReductionInterface\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetTools;D:\Programs\UE_4.27\Engine\Source\Developer\AssetTools\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\KismetCompiler;D:\Programs\UE_4.27\Engine\Source\Editor\KismetCompiler\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTasks;D:\Programs\UE_4.27\Engine\Source\Runtime\GameplayTasks\Classes;D:\Programs\UE_4.27\Engine\Source\Runtime\GameplayTasks\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule;D:\Programs\UE_4.27\Engine\Source\Runtime\AIModule\Public;D:\Programs\UE_4.27\Engine\Source\Runtime\AIModule\Classes;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Kismet;D:\Programs\UE_4.27\Engine\Source\Editor\Kismet\Classes;D:\Programs\UE_4.27\Engine\Source\Editor\Kismet\Public;D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface;D:\Programs\UE_4.27\Engine\Source\Runtime\ClothingSystemRuntimeInterface\Public;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.2\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;;</IncludePath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <AdditionalOptions>/std:c++14</AdditionalOptions>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\Not_Dead_Enough.uproject"/>
+    <None Include="..\..\Source\Not_Dead_Enough.Target.cs"/>
+    <None Include="..\..\Source\Not_Dead_EnoughEditor.Target.cs"/>
+    <None Include="..\..\Config\DefaultEditor.ini"/>
+    <None Include="..\..\Config\DefaultEngine.ini"/>
+    <None Include="..\..\Config\DefaultGame.ini"/>
+    <None Include="..\..\Source\Not_Dead_Enough\Not_Dead_Enough.Build.cs"/>
+    <ClCompile Include="..\..\Source\Not_Dead_Enough\Not_Dead_Enough.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\PxShared\include;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(SolutionDir)Intermediate\Build\Win64\Not_Dead_EnoughEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h;$(SolutionDir)Intermediate\Build\Win64\UE4Editor\Development\Not_Dead_Enough\Definitions.Not_Dead_Enough.h</ForcedIncludeFiles>
+      <AdditionalOptions>/Yu"$(SolutionDir)Intermediate\Build\Win64\Not_Dead_EnoughEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Not_Dead_Enough\Not_Dead_Enough.h"/>
+    <ClCompile Include="..\..\Source\Not_Dead_Enough\Not_Dead_EnoughGameModeBase.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\PxShared\include;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;D:\Programs\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(SolutionDir)Intermediate\Build\Win64\Not_Dead_EnoughEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h;$(SolutionDir)Intermediate\Build\Win64\UE4Editor\Development\Not_Dead_Enough\Definitions.Not_Dead_Enough.h</ForcedIncludeFiles>
+      <AdditionalOptions>/Yu"$(SolutionDir)Intermediate\Build\Win64\Not_Dead_EnoughEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Not_Dead_Enough\Not_Dead_EnoughGameModeBase.h"/>
+  </ItemGroup>
+  <PropertyGroup>
+    <SourcePath></SourcePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <PropertyGroup>
+    <CleanDependsOn> $(CleanDependsOn); </CleanDependsOn>
+    <CppCleanDependsOn></CppCleanDependsOn>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

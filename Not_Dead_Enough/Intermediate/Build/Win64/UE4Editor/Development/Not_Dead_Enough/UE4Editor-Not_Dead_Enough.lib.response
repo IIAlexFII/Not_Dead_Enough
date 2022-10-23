@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Not_Dead_Enough.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\sofia\Desktop\Not_Dead_Enough\Not_Dead_Enough\Not_Dead_Enough\Intermediate\Build\Win64\Not_Dead_EnoughEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\sofia\Desktop\Not_Dead_Enough\Not_Dead_Enough\Not_Dead_Enough\Intermediate\Build\Win64\UE4Editor\Development\Not_Dead_Enough\Not_Dead_Enough.cpp.obj"
+"C:\Users\sofia\Desktop\Not_Dead_Enough\Not_Dead_Enough\Not_Dead_Enough\Intermediate\Build\Win64\UE4Editor\Development\Not_Dead_Enough\Not_Dead_EnoughGameModeBase.cpp.obj"
+"C:\Users\sofia\Desktop\Not_Dead_Enough\Not_Dead_Enough\Not_Dead_Enough\Intermediate\Build\Win64\UE4Editor\Development\Not_Dead_Enough\Not_Dead_Enough.init.gen.cpp.obj"
+"C:\Users\sofia\Desktop\Not_Dead_Enough\Not_Dead_Enough\Not_Dead_Enough\Intermediate\Build\Win64\UE4Editor\Development\Not_Dead_Enough\Not_Dead_EnoughGameModeBase.gen.cpp.obj"
+"C:\Users\sofia\Desktop\Not_Dead_Enough\Not_Dead_Enough\Not_Dead_Enough\Intermediate\Build\Win64\UE4Editor\Development\Not_Dead_Enough\Default.rc2.res"
+/OUT:"C:\Users\sofia\Desktop\Not_Dead_Enough\Not_Dead_Enough\Not_Dead_Enough\Intermediate\Build\Win64\UE4Editor\Development\Not_Dead_Enough\UE4Editor-Not_Dead_Enough.lib"
