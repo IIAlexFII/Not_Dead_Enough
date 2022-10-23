@@ -1209,3 +1209,7 @@ Generate project file?
 [2022.10.23-21.04.02:825][717]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
 [2022.10.23-21.04.02:830][717]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
 [2022.10.23-21.04.02:875][719]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2022.10.23-21.07.24:468][456]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.10.23-21.07.24:488][456]LogSavePackage: Moving 'C:/Users/sofia/Desktop/Not_Dead_Enough/Not_Dead_Enough/Prototype/Saved/FirstPersonExampleMap077195614842943234F14B942A7B6A14.tmp' to 'C:/Users/sofia/Desktop/Not_Dead_Enough/Not_Dead_Enough/Prototype/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2022.10.23-21.07.24:515][456]AssetCheck: New page: Asset Save: FirstPersonExampleMap
+[2022.10.23-21.07.24:515][456]LogContentValidation: Display: Validating World /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
