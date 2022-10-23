@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define MULTIPLAYERPROTOTYPE_ZombieGamemode_generated_h
 
-#define MultiplayerPrototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_SPARSE_DATA
-#define MultiplayerPrototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_RPC_WRAPPERS
-#define MultiplayerPrototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define MultiplayerPrototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_INCLASS_NO_PURE_DECLS \
+#define Prototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_SPARSE_DATA
+#define Prototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_RPC_WRAPPERS
+#define Prototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define Prototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAZombieGamemode(); \
 	friend struct Z_Construct_UClass_AZombieGamemode_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AZombieGamemode)
 
 
-#define MultiplayerPrototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_INCLASS \
+#define Prototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesAZombieGamemode(); \
 	friend struct Z_Construct_UClass_AZombieGamemode_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AZombieGamemode)
 
 
-#define MultiplayerPrototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_STANDARD_CONSTRUCTORS \
+#define Prototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AZombieGamemode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AZombieGamemode) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define MultiplayerPrototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_ENHANCED_CONSTRUCTORS \
+#define Prototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AZombieGamemode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -60,28 +60,28 @@ public: \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AZombieGamemode)
 
 
-#define MultiplayerPrototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_PRIVATE_PROPERTY_OFFSET
-#define MultiplayerPrototype_Source_MultiplayerPrototype_ZombieGamemode_h_12_PROLOG
-#define MultiplayerPrototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_GENERATED_BODY_LEGACY \
+#define Prototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_PRIVATE_PROPERTY_OFFSET
+#define Prototype_Source_MultiplayerPrototype_ZombieGamemode_h_12_PROLOG
+#define Prototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	MultiplayerPrototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_PRIVATE_PROPERTY_OFFSET \
-	MultiplayerPrototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_SPARSE_DATA \
-	MultiplayerPrototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_RPC_WRAPPERS \
-	MultiplayerPrototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_INCLASS \
-	MultiplayerPrototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_STANDARD_CONSTRUCTORS \
+	Prototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_PRIVATE_PROPERTY_OFFSET \
+	Prototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_SPARSE_DATA \
+	Prototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_RPC_WRAPPERS \
+	Prototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_INCLASS \
+	Prototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define MultiplayerPrototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_GENERATED_BODY \
+#define Prototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	MultiplayerPrototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_PRIVATE_PROPERTY_OFFSET \
-	MultiplayerPrototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_SPARSE_DATA \
-	MultiplayerPrototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	MultiplayerPrototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_INCLASS_NO_PURE_DECLS \
-	MultiplayerPrototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_ENHANCED_CONSTRUCTORS \
+	Prototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_PRIVATE_PROPERTY_OFFSET \
+	Prototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_SPARSE_DATA \
+	Prototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	Prototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_INCLASS_NO_PURE_DECLS \
+	Prototype_Source_MultiplayerPrototype_ZombieGamemode_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -89,7 +89,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> MULTIPLAYERPROTOTYPE_API UClass* StaticClass<class AZombieGamemode>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID MultiplayerPrototype_Source_MultiplayerPrototype_ZombieGamemode_h
+#define CURRENT_FILE_ID Prototype_Source_MultiplayerPrototype_ZombieGamemode_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

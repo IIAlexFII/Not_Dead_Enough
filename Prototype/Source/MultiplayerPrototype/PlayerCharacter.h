@@ -26,7 +26,6 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-
 public:
 
 	UPROPERTY(VisibleDefaultsOnly, Category= Mesh)
@@ -50,14 +49,24 @@ public:
 	//UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Gameplay)
 	//FVector GunOffset;
 
-protected:
+protected: //functions
 
 	//void OnFire();
+	void Running();
+	void StopRunning();
+	
 	void MoveForward(float Value);
 	void MoveRight(float Value);
 
 	void TurnAtRate(float Rate);
 	void LookAtRate(float Rate);
-	
-	
+
+protected: //variables
+	//Normal Speed
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float WalkingSpeed;
+
+	//Speed Multiplier For When The Player Is Running
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float RunningSpeed;
 };

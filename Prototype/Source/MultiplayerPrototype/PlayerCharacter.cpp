@@ -6,6 +6,7 @@
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
+#include "GameFramework/CharacterMovementComponent.h"
 
 
 // Sets default values
@@ -17,6 +18,9 @@ APlayerCharacter::APlayerCharacter()
 	GetCapsuleComponent()->InitCapsuleSize(40.0f, 95.0f);
 	TurnRate = 45.0f;
 	LookUpRate = 45.0f;
+
+	WalkingSpeed = 600.0f;
+	RunningSpeed = 900.0f;
 
 	FirstPersonCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("First Person Camera"));
 	FirstPersonCamera->SetupAttachment((GetCapsuleComponent()));
@@ -48,14 +52,12 @@ void APlayerCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 	//GunMesh->AttachToComponent(HandsMesh,FAttachmentTransformRules::SnapToTargetNotIncludingScale,TEXT("GripPoint"));
-	
 } 
 
 // Called every frame
 void APlayerCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
 // Called to bind functionality to input
@@ -64,24 +66,34 @@ void APlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+	PlayerInputComponent->BindAction("Running", IE_Pressed, this, &APlayerCharacter::Running);
+	PlayerInputComponent->BindAction("Running", IE_Released, this, &APlayerCharacter::StopRunning);
 	//PlayerInputComponent->BindAction("Fire", IE_Pressed, this, APlayerCharacter::OnFire);
 	PlayerInputComponent->BindAxis("MoveForward", this, &APlayerCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &APlayerCharacter::MoveRight);
 	PlayerInputComponent->BindAxis("Turn", this, &APlayerCharacter::TurnAtRate);
 	PlayerInputComponent->BindAxis("LookUp", this, &APlayerCharacter::LookAtRate);
-
 }
 
 /*void APlayerCharacter::OnFire()
 {
 }*/
 
+void APlayerCharacter::Running()
+{
+	GetCharacterMovement()->MaxWalkSpeed = RunningSpeed;
+}
+
+void APlayerCharacter::StopRunning()
+{
+	GetCharacterMovement()->MaxWalkSpeed = WalkingSpeed;
+}
+
 void APlayerCharacter::MoveForward(float Value)
 {
 	if( Value !=0.0f)
 	{
 		AddMovementInput(GetActorForwardVector(), Value);
-		
 	}
 }
 
@@ -90,14 +102,12 @@ void APlayerCharacter::MoveRight(float Value)
 	if( Value !=0.0f)
 	{
 		AddMovementInput(GetActorRightVector(), Value);
-		
 	}
 }
 
 void APlayerCharacter::TurnAtRate(float Rate)
 {
 	AddControllerYawInput(Rate*TurnRate* GetWorld()->GetDeltaSeconds());
-	
 }
 
 void APlayerCharacter::LookAtRate(float Rate)

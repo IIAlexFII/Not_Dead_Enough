@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeMultiplayerPrototype_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x24AC1D82,
+				0x7E5DA770,
 				0x95E08DB6,
 				METADATA_PARAMS(nullptr, 0)
 			};
