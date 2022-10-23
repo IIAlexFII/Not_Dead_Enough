@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MultiplayerPrototype",
+			"Path": "C:\\Users\\gonga\\Documents\\Unreal Projects\\MultiplayerPrototype\\Source\\MultiplayerPrototype.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MultiplayerPrototypeEditor",
+			"Path": "C:\\Users\\gonga\\Documents\\Unreal Projects\\MultiplayerPrototype\\Source\\MultiplayerPrototypeEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

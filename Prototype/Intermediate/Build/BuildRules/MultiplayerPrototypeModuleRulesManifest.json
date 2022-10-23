@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\gonga\\Documents\\Unreal Projects\\MultiplayerPrototype\\Source\\MultiplayerPrototype\\MultiplayerPrototype.Build.cs",
+		"C:\\Users\\gonga\\Documents\\Unreal Projects\\MultiplayerPrototype\\Source\\MultiplayerPrototype.Target.cs",
+		"C:\\Users\\gonga\\Documents\\Unreal Projects\\MultiplayerPrototype\\Source\\MultiplayerPrototypeEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}

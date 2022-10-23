@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\MultiplayerPrototype.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{100A0BDA-B0BB-42F2-962F-ACEB1E28CA3B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MultiplayerPrototype.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MultiplayerPrototypeEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{7936FF6A-6E12-4D48-B678-D65B84C33E1D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\MultiplayerPrototype">
+      <UniqueIdentifier>{D9E40180-0F23-4DD5-95BE-BE53CA819B46}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MultiplayerPrototype\MultiplayerPrototype.Build.cs">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\MultiplayerPrototype\MultiplayerPrototype.cpp">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiplayerPrototype\MultiplayerPrototype.h">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MultiplayerPrototype\MultiplayerPrototypeCharacter.cpp">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiplayerPrototype\MultiplayerPrototypeCharacter.h">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MultiplayerPrototype\MultiplayerPrototypeGameMode.cpp">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiplayerPrototype\MultiplayerPrototypeGameMode.h">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MultiplayerPrototype\MultiplayerPrototypeHUD.cpp">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiplayerPrototype\MultiplayerPrototypeHUD.h">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MultiplayerPrototype\MultiplayerPrototypeProjectile.cpp">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiplayerPrototype\MultiplayerPrototypeProjectile.h">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MultiplayerPrototype\PlayerCharacter.cpp">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiplayerPrototype\PlayerCharacter.h">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MultiplayerPrototype\ZombieGamemode.cpp">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiplayerPrototype\ZombieGamemode.h">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
