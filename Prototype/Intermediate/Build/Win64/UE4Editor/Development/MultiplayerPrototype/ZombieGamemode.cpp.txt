@@ -1,9 +1,9 @@
-C:\Users\sofia\Desktop\Not_Dead_Enough\Not_Dead_Enough\Prototype\Intermediate\Build\Win64\UE4Editor\Development\MultiplayerPrototype\Definitions.MultiplayerPrototype.h
-C:\Users\sofia\Desktop\Not_Dead_Enough\Not_Dead_Enough\Prototype\Source\MultiplayerPrototype\ZombieGamemode.h
+C:\Users\sofia\Desktop\Not Dead Enough (zombie prototype)\Not Dead Enough (zombie prototype)\Prototype\Intermediate\Build\Win64\UE4Editor\Development\MultiplayerPrototype\Definitions.MultiplayerPrototype.h
+C:\Users\sofia\Desktop\Not Dead Enough (zombie prototype)\Not Dead Enough (zombie prototype)\Prototype\Source\MultiplayerPrototype\ZombieGamemode.h
 D:\Programs\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameMode.h
 D:\Programs\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
 D:\Programs\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
 D:\Programs\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameMode.generated.h
-C:\Users\sofia\Desktop\Not_Dead_Enough\Not_Dead_Enough\Prototype\Intermediate\Build\Win64\UE4Editor\Inc\MultiplayerPrototype\ZombieGamemode.generated.h
+C:\Users\sofia\Desktop\Not Dead Enough (zombie prototype)\Not Dead Enough (zombie prototype)\Prototype\Intermediate\Build\Win64\UE4Editor\Inc\MultiplayerPrototype\ZombieGamemode.generated.h

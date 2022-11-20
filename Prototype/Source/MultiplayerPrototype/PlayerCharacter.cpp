@@ -3,11 +3,19 @@
 
 #include "PlayerCharacter.h"
 
+#include "DestroyActorOnOverlap.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "Projectile.h"
+#include "Animation/AnimInstance.h"
+#include "DestroyActorOnOverlap.h"
+#include "Kismet/GameplayStatics.h"
+#include "DrawDebugHelpers.h"
+#include "InteractInterface.h"
 
+#include "ZombieGamemode.h"
 
 // Sets default values
 APlayerCharacter::APlayerCharacter()
@@ -35,23 +43,27 @@ APlayerCharacter::APlayerCharacter()
 	HandsMesh->AddRelativeRotation(FRotator(1.9f, -19.19f, 5.2f));
 	HandsMesh->AddRelativeLocation(FVector(-0.5f, -4.4f, -155.7f));
 	
-	//GunMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Gun"));
-	//GunMesh->SetOnlyOwnerSee(true);
-	//GunMesh->bCastDynmicShadow = false;
-	//GunMesh->CastShadow = false;
+	GunMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Gun"));
+	GunMesh->SetOnlyOwnerSee(true);
+	GunMesh->bCastDynamicShadow = false;
+	GunMesh->CastShadow = false;
 
-	//MuzzleLocation =CreateDefaultSubobject<USceneComponent>(TEXT("Muzzle Location"));
-	//MuzzleLocation->SetupAttachement(GunMesh);
-	//MuzzleLocation->SetRelativeLocation(FVector(0.2f,48.4f,-10.6f));
+	MuzzleLocation = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Muzzle Location"));
+	MuzzleLocation->SetupAttachment(GunMesh);
+	MuzzleLocation->SetRelativeLocation(FVector(0.2f,48.4f,-10.6f));
 
-	//GunOffset = FVector(100.0f,0.0f,10.0f);
+	GunOffset = FVector(100.0f,0.0f,10.0f);
 }
 
 // Called when the game starts or when spawned
 void APlayerCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-	//GunMesh->AttachToComponent(HandsMesh,FAttachmentTransformRules::SnapToTargetNotIncludingScale,TEXT("GripPoint"));
+	GunMesh->AttachToComponent(HandsMesh,FAttachmentTransformRules::SnapToTargetNotIncludingScale,TEXT("GripPoint"));
+
+	World = GetWorld();
+
+	AnimInstance = HandsMesh->GetAnimInstance();
 } 
 
 // Called every frame
@@ -68,16 +80,57 @@ void APlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 	PlayerInputComponent->BindAction("Running", IE_Pressed, this, &APlayerCharacter::Running);
 	PlayerInputComponent->BindAction("Running", IE_Released, this, &APlayerCharacter::StopRunning);
-	//PlayerInputComponent->BindAction("Fire", IE_Pressed, this, APlayerCharacter::OnFire);
+	PlayerInputComponent->BindAction("Reload", IE_Pressed, this, &APlayerCharacter::Reloading);
+	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &APlayerCharacter::OnFire);
+	PlayerInputComponent->BindAction("Unlock", IE_Pressed, this, &APlayerCharacter::Interact_Implementation);
 	PlayerInputComponent->BindAxis("MoveForward", this, &APlayerCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &APlayerCharacter::MoveRight);
 	PlayerInputComponent->BindAxis("Turn", this, &APlayerCharacter::TurnAtRate);
 	PlayerInputComponent->BindAxis("LookUp", this, &APlayerCharacter::LookAtRate);
 }
 
-/*void APlayerCharacter::OnFire()
+void APlayerCharacter::OnFire()
 {
-}*/
+	if(World != NULL)
+	{
+		if(Bullets != 0)
+		{
+			SpawnRotation = GetControlRotation();
+
+			SpawnLocation = ((MuzzleLocation != nullptr) ?
+				MuzzleLocation->GetComponentLocation() :
+				GetActorLocation()) + SpawnRotation.RotateVector((GunOffset));
+
+			Bullets -= 1;
+
+			FActorSpawnParameters ActorSpawnParams;
+			ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
+
+			World->SpawnActor<AProjectile>(Projectile, SpawnLocation, SpawnRotation, ActorSpawnParams);
+			/*
+			if(MuzzleLocation != nullptr)
+			{
+				SpawnLocation = MuzzleLocation->GetComponentLocation();
+			}
+			else
+			{
+				SpawnLocation = GetActorLocation() + SpawnRotation.RotateVector((GunOffset));
+			}
+			*/
+		}
+	}
+
+	if(FireSound != NULL)
+	{
+		UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
+		
+	}
+
+	if(FireAnimation != NULL && AnimInstance != NULL)
+	{
+		AnimInstance->Montage_Play(FireAnimation, 1.0f);
+	}
+}
 
 void APlayerCharacter::Running()
 {
@@ -87,6 +140,20 @@ void APlayerCharacter::Running()
 void APlayerCharacter::StopRunning()
 {
 	GetCharacterMovement()->MaxWalkSpeed = WalkingSpeed;
+}
+
+ void APlayerCharacter::Calling()
+ {
+	// ADestroyActorOnOverlap* door = Cast<ADestroyActorOnOverlap>(World->GetFirstPlayerController()->GetCharacter());
+	// Interact_Implementation(door);
+// 	ADestroyActorOnOverlap* door = Cast<ADestroyActorOnOverlap>(AActor);
+// 	Interact_Implementation(door);
+}
+
+void APlayerCharacter::KeyPressed()
+{
+
+	IsPressed = true;
 }
 
 void APlayerCharacter::MoveForward(float Value)
@@ -105,6 +172,17 @@ void APlayerCharacter::MoveRight(float Value)
 	}
 }
 
+void APlayerCharacter::Reloading()
+{
+	FTimerHandle UnusedHandle;
+	GetWorldTimerManager().SetTimer(UnusedHandle, this, &APlayerCharacter::ReloadingBullets, 2, false);
+}
+
+void APlayerCharacter::ReloadingBullets()
+{
+	Bullets = MaxBullets;
+}
+
 void APlayerCharacter::TurnAtRate(float Rate)
 {
 	AddControllerYawInput(Rate*TurnRate* GetWorld()->GetDeltaSeconds());
@@ -115,3 +193,117 @@ void APlayerCharacter::LookAtRate(float Rate)
 	AddControllerPitchInput(Rate*LookUpRate* GetWorld()->GetDeltaSeconds());
 }
 
+
+
+// void APlayerCharacter::Interact_Implementation()
+// {
+// 	FHitResult result;
+// 	cachedPawnInterface = Cast<IInteractInterface>(result.GetActor());
+// 	
+// 	if(cachedPawnInterface)
+// 	{
+// 		cachedPawnInterface->Interact(result.GetActor());
+// 	}
+// 	UE_LOG(LogTemp, Warning, TEXT("being pressed"));
+// 	
+// }
+
+void APlayerCharacter::Interact_Implementation()
+{
+	FVector Start = GetActorLocation();
+		FVector End = Start + FirstPersonCamera->GetForwardVector() * 500;
+		FCollisionQueryParams queryP;
+		queryP.AddIgnoredActor(this);
+		queryP.bTraceComplex = true;
+		queryP.bDebugQuery = true;
+		FCollisionResponseParams responseP;
+		FHitResult result;
+		GetWorld()->LineTraceSingleByChannel(result, Start, End, ECollisionChannel::ECC_Visibility, queryP, responseP);
+		if (result.bBlockingHit == true) {
+			
+			DrawDebugLine(GetWorld(), Start, result.ImpactPoint, FColor::Green, false, 1);
+		
+			if (result.GetActor()) {
+				IInteractInterface* interactable = Cast<IInteractInterface>(result.GetActor());
+				if (interactable != nullptr)
+				{
+					interactable->Interact(this);
+				}
+			}
+		}
+	
+}
+
+//void PerformInteraction()
+//{
+	//RayCast(forwa)
+
+	//AActor* Hit.GetActor()
+
+	/*if (Actor != null) {
+	 *	IInteractInterface* interactable = Cast<IInteractInterface>(Actor)
+	 *	if (interactable != nullptr) {
+	 *	interactable->Interact(this);
+	 *	}
+	 *}
+	 *
+	 **/
+
+
+
+
+void APlayerCharacter::DealDamage(float DamageAmount)
+{
+	Health -= DamageAmount;
+	if(Health <= 0.0f)
+	{
+		Destroy();
+	}
+}
+
+// void APlayerCharacter::Interact()
+// {
+// 	FVector Start = GetActorLocation();
+// 	FVector End = Start + FirstPersonCamera->GetForwardVector() * 200;
+// 	FCollisionQueryParams queryP;
+// 	queryP.AddIgnoredActor(this);
+// 	queryP.bTraceComplex = true;
+// 	queryP.bDebugQuery = true;
+// 	FCollisionResponseParams responseP;
+// 	responseP;
+// 	FHitResult result;
+// 	GetWorld()->LineTraceSingleByChannel(result, Start, End, ECollisionChannel::ECC_Visibility, queryP, responseP);
+//
+// 	
+// 	
+// 	if (result.bBlockingHit == true) {
+// 		
+// 		DrawDebugLine(GetWorld(), Start, result.ImpactPoint, FColor::Green, false, 1);
+// 	
+// 		if (result.GetActor()->Implements<UInteractInterface>()) {
+// 			IInteractInterface::Execute_Interact(result.GetActor(), this);
+// 		}
+// 	}
+// 	else {
+// 		DrawDebugLine(GetWorld(), Start, End, FColor::Red, false, 1);
+// 	}
+//
+// }
+
+// IInteractInterface* cachedPawnInterface = Cast<IInteractInterface>(whoInteracted);
+// if(cachedPawnInterface)
+// {
+// 	cachedPawnInterface->Interact(whoInteracted); // this needs t obe an actor not an interface
+// }
+//
+
+
+//IInteractInterface* interactable = Cast<IInteractInterface>(whoInteracted);
+
+	
+//
+// if(interactable)
+// {
+// 	interactable->Interact(whoInteracted);
+// }
+// UE_LOG(LogTemp, Warning, TEXT("being pressed"));
