@@ -1,0 +1,1593 @@
+﻿Log file open, 11/30/22 09:33:02
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: MultiplayerPrototype
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.577956
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogInit: Display: Loading text-based GConfig....
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin GameplayCameras
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin PixWinPlugin
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin RiderLink
+LogPluginManager: Mounting plugin TextureFormatOodle
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin OpenImageDenoise
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin PythonScriptPlugin
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OpenXR
+LogPluginManager: Mounting plugin OpenXREyeTracker
+LogPluginManager: Mounting plugin OpenXRHandTracking
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin OodleData
+LogPluginManager: Mounting plugin Takes
+LogPluginManager: Mounting plugin OodleNetwork
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogHMD: Failed initializing OVRPlugin 1.59.0
+LogInit: Build: ++UE4+Release-4.27-CL-18319896
+LogInit: Engine Version: 4.27.2-18319896+++UE4+Release-4.27
+LogInit: Compatible Engine Version: 4.27.0-17155196+++UE4+Release-4.27
+LogInit: Net CL: 17155196
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Nov 30 2021 07:12:08
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.27
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Programs/UE_4.27/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 14
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 47
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/sofia/Desktop/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Prototype/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2022.11.30-09.33.03:744][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2022.11.30-09.33.03:744][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2022.11.30-09.33.03:744][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/sofia/Desktop/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Prototype/Saved/Config/Windows/Engine.ini]
+[2022.11.30-09.33.03:744][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2022.11.30-09.33.03:744][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/sofia/Desktop/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Prototype/Saved/Config/Windows/Engine.ini]
+[2022.11.30-09.33.03:744][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/sofia/Desktop/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Prototype/Saved/Config/Windows/Engine.ini]
+[2022.11.30-09.33.03:744][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2022.11.30-09.33.03:744][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2022.11.30-09.33.03:744][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2022.11.30-09.33.03:744][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2022.11.30-09.33.03:744][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2022.11.30-09.33.03:744][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2022.11.30-09.33.03:744][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2022.11.30-09.33.03:744][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2022.11.30-09.33.03:744][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2022.11.30-09.33.03:744][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2022.11.30-09.33.03:744][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2022.11.30-09.33.03:744][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2022.11.30-09.33.03:744][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2022.11.30-09.33.03:744][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2022.11.30-09.33.03:744][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/sofia/Desktop/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Prototype/Saved/Config/Windows/Engine.ini]
+[2022.11.30-09.33.03:744][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2022.11.30-09.33.03:744][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2022.11.30-09.33.03:744][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2022.11.30-09.33.03:744][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2022.11.30-09.33.03:745][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2022.11.30-09.33.03:745][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2022.11.30-09.33.03:745][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2022.11.30-09.33.03:745][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2022.11.30-09.33.03:745][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2022.11.30-09.33.03:745][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2022.11.30-09.33.03:745][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2022.11.30-09.33.03:745][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2022.11.30-09.33.03:745][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2022.11.30-09.33.03:745][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2022.11.30-09.33.03:745][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/sofia/Desktop/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Prototype/Saved/Config/Windows/Engine.ini]
+[2022.11.30-09.33.03:745][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/sofia/Desktop/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Prototype/Saved/Config/Windows/Engine.ini]
+[2022.11.30-09.33.03:763][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/sofia/Desktop/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Prototype/Saved/Config/Windows/Scalability.ini]
+[2022.11.30-09.33.03:763][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.11.30-09.33.03:763][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.11.30-09.33.03:763][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/sofia/Desktop/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Prototype/Saved/Config/Windows/Scalability.ini]
+[2022.11.30-09.33.03:763][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.11.30-09.33.03:763][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/sofia/Desktop/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Prototype/Saved/Config/Windows/Scalability.ini]
+[2022.11.30-09.33.03:763][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.11.30-09.33.03:763][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.11.30-09.33.03:763][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.11.30-09.33.03:763][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.11.30-09.33.03:763][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.11.30-09.33.03:763][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.11.30-09.33.03:763][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.11.30-09.33.03:763][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.11.30-09.33.03:763][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.11.30-09.33.03:763][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.11.30-09.33.03:763][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.11.30-09.33.03:763][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.11.30-09.33.03:763][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.11.30-09.33.03:763][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/sofia/Desktop/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Prototype/Saved/Config/Windows/Scalability.ini]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/sofia/Desktop/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Prototype/Saved/Config/Windows/Scalability.ini]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.11.30-09.33.03:764][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.11.30-09.33.03:765][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.11.30-09.33.03:765][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/sofia/Desktop/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Prototype/Saved/Config/Windows/Scalability.ini]
+[2022.11.30-09.33.03:765][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.11.30-09.33.03:765][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.11.30-09.33.03:765][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.11.30-09.33.03:765][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.11.30-09.33.03:765][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.11.30-09.33.03:765][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.11.30-09.33.03:765][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.11.30-09.33.03:765][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.11.30-09.33.03:765][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2022.11.30-09.33.03:765][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.11.30-09.33.03:765][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.11.30-09.33.03:765][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.11.30-09.33.03:765][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.11.30-09.33.03:765][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.11.30-09.33.03:765][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.11.30-09.33.03:765][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.11.30-09.33.03:765][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.11.30-09.33.03:765][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2022.11.30-09.33.03:765][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.11.30-09.33.03:765][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.11.30-09.33.03:765][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.11.30-09.33.03:765][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2022.11.30-09.33.03:765][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.11.30-09.33.03:765][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2022.11.30-09.33.03:765][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.11.30-09.33.03:765][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.11.30-09.33.03:765][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.11.30-09.33.03:765][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2022.11.30-09.33.03:765][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/sofia/Desktop/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Prototype/Saved/Config/Windows/Scalability.ini]
+[2022.11.30-09.33.03:765][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.11.30-09.33.03:765][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.11.30-09.33.03:765][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/sofia/Desktop/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Prototype/Saved/Config/Windows/Scalability.ini]
+[2022.11.30-09.33.03:765][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2022.11.30-09.33.03:765][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2022.11.30-09.33.03:765][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2022.11.30-09.33.03:765][  0]LogInit: Selected Device Profile: [Windows]
+[2022.11.30-09.33.03:765][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.11.30-09.33.03:765][  0]LogHAL: Display: Platform has ~ 16 GB [17043673088 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.11.30-09.33.03:765][  0]LogInit: Going up to parent DeviceProfile []
+[2022.11.30-09.33.03:766][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/sofia/Desktop/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Prototype/Saved/Config/Windows/Scalability.ini]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.11.30-09.33.03:766][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/sofia/Desktop/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Prototype/Saved/Config/Windows/Scalability.ini]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.11.30-09.33.03:766][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/sofia/Desktop/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Prototype/Saved/Config/Windows/Scalability.ini]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.11.30-09.33.03:766][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/sofia/Desktop/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Prototype/Saved/Config/Windows/Scalability.ini]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.11.30-09.33.03:766][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.11.30-09.33.03:767][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.11.30-09.33.03:767][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.11.30-09.33.03:767][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.11.30-09.33.03:767][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.11.30-09.33.03:767][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.11.30-09.33.03:767][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.11.30-09.33.03:767][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.11.30-09.33.03:767][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.11.30-09.33.03:767][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.11.30-09.33.03:767][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.11.30-09.33.03:767][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.11.30-09.33.03:767][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.11.30-09.33.03:767][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/sofia/Desktop/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Prototype/Saved/Config/Windows/Scalability.ini]
+[2022.11.30-09.33.03:767][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.11.30-09.33.03:767][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.11.30-09.33.03:767][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.11.30-09.33.03:767][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.11.30-09.33.03:767][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.11.30-09.33.03:767][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.11.30-09.33.03:767][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.11.30-09.33.03:767][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.11.30-09.33.03:767][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.11.30-09.33.03:767][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/sofia/Desktop/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Prototype/Saved/Config/Windows/Scalability.ini]
+[2022.11.30-09.33.03:767][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.11.30-09.33.03:767][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.11.30-09.33.03:767][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.11.30-09.33.03:767][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.11.30-09.33.03:767][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.11.30-09.33.03:767][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.11.30-09.33.03:767][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.11.30-09.33.03:767][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.11.30-09.33.03:767][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2022.11.30-09.33.03:767][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.11.30-09.33.03:767][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.11.30-09.33.03:768][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.11.30-09.33.03:768][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.11.30-09.33.03:768][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.11.30-09.33.03:768][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.11.30-09.33.03:768][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.11.30-09.33.03:768][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.11.30-09.33.03:768][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2022.11.30-09.33.03:768][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.11.30-09.33.03:768][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.11.30-09.33.03:768][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.11.30-09.33.03:768][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2022.11.30-09.33.03:768][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.11.30-09.33.03:768][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2022.11.30-09.33.03:768][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.11.30-09.33.03:768][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.11.30-09.33.03:768][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.11.30-09.33.03:768][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2022.11.30-09.33.03:768][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/sofia/Desktop/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Prototype/Saved/Config/Windows/Scalability.ini]
+[2022.11.30-09.33.03:768][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.11.30-09.33.03:768][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.11.30-09.33.03:768][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/sofia/Desktop/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Prototype/Saved/Config/Windows/Scalability.ini]
+[2022.11.30-09.33.03:768][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2022.11.30-09.33.03:768][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2022.11.30-09.33.03:768][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2022.11.30-09.33.03:768][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.11.30-09.33.03:769][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2022.11.30-09.33.03:769][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2022.11.30-09.33.03:769][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2022.11.30-09.33.03:769][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/sofia/Desktop/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Prototype/Saved/Config/Windows/Engine.ini]
+[2022.11.30-09.33.03:769][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/sofia/Desktop/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Prototype/Saved/Config/Windows/Editor.ini]
+[2022.11.30-09.33.03:769][  0]LogInit: Computer: LAPTOP-TJ19799S
+[2022.11.30-09.33.03:769][  0]LogInit: User: sofia
+[2022.11.30-09.33.03:770][  0]LogInit: CPU Page size=4096, Cores=6
+[2022.11.30-09.33.03:770][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.11.30-09.33.03:770][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2022.11.30-09.33.03:770][  0]LogMemory: Platform Memory Stats for Windows
+[2022.11.30-09.33.03:770][  0]LogMemory: Process Physical Memory: 145.57 MB used, 145.58 MB peak
+[2022.11.30-09.33.03:770][  0]LogMemory: Process Virtual Memory: 117.89 MB used, 117.89 MB peak
+[2022.11.30-09.33.03:770][  0]LogMemory: Physical Memory: 11798.88 MB used,  4455.23 MB free, 16254.11 MB total
+[2022.11.30-09.33.03:770][  0]LogMemory: Virtual Memory: 134208456.00 MB used,  9273.42 MB free, 134217728.00 MB total
+[2022.11.30-09.33.03:780][  0]LogWindows: WindowsPlatformFeatures enabled
+[2022.11.30-09.33.03:885][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2022.11.30-09.33.03:887][  0]LogInit: Using OS detected language (pt-PT).
+[2022.11.30-09.33.03:887][  0]LogInit: Using OS detected locale (pt-PT).
+[2022.11.30-09.33.03:905][  0]LogTextLocalizationManager: No localization for 'pt-PT' exists, so 'en' will be used for the language.
+[2022.11.30-09.33.04:413][  0]LogInit: Setting process to per monitor DPI aware
+[2022.11.30-09.33.04:440][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.11.30-09.33.04:466][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.11.30-09.33.04:466][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.11.30-09.33.05:189][  0]LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+[2022.11.30-09.33.05:260][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.11.30-09.33.05:260][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2022.11.30-09.33.05:260][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2022.11.30-09.33.05:260][  0]LogD3D11RHI: D3D11 adapters:
+[2022.11.30-09.33.05:456][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060' (Feature Level 11_0)
+[2022.11.30-09.33.05:456][  0]LogD3D11RHI:       5980/0/8127 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2022.11.30-09.33.06:653][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2022.11.30-09.33.06:653][  0]LogD3D11RHI:       128/0/8127 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2022.11.30-09.33.06:657][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.11.30-09.33.06:657][  0]LogD3D11RHI:       0/0/8127 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.11.30-09.33.06:657][  0]LogD3D11RHI: Chosen D3D11 Adapter:
+[2022.11.30-09.33.06:657][  0]LogD3D11RHI:     Description : NVIDIA GeForce RTX 2060
+[2022.11.30-09.33.06:657][  0]LogD3D11RHI:     VendorId    : 10de
+[2022.11.30-09.33.06:657][  0]LogD3D11RHI:     DeviceId    : 1f11
+[2022.11.30-09.33.06:657][  0]LogD3D11RHI:     SubSysId    : 3ffd17aa
+[2022.11.30-09.33.06:658][  0]LogD3D11RHI:     Revision    : 00a1
+[2022.11.30-09.33.06:658][  0]LogD3D11RHI:     DedicatedVideoMemory : 6270484480 bytes
+[2022.11.30-09.33.06:658][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2022.11.30-09.33.06:658][  0]LogD3D11RHI:     SharedSystemMemory : 8521836544 bytes
+[2022.11.30-09.33.06:658][  0]LogD3D11RHI:     AdapterLuid : 0 78827
+[2022.11.30-09.33.06:669][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.11.30-09.33.06:669][  0]LogD3D11RHI:     GPU DeviceId: 0x1f11 (for the marketing name, search the web for "GPU Device Id")
+[2022.11.30-09.33.06:669][  0]LogWindows: EnumDisplayDevices:
+[2022.11.30-09.33.06:670][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2022.11.30-09.33.06:670][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2022.11.30-09.33.06:671][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2022.11.30-09.33.06:671][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2022.11.30-09.33.06:672][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2022.11.30-09.33.06:672][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2022.11.30-09.33.06:673][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2022.11.30-09.33.06:673][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2022.11.30-09.33.06:673][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060
+[2022.11.30-09.33.06:673][  0]LogD3D11RHI:   Driver Version: 516.94 (internal:31.0.15.1694, unified:516.94)
+[2022.11.30-09.33.06:673][  0]LogD3D11RHI:      Driver Date: 7-21-2022
+[2022.11.30-09.33.06:673][  0]LogRHI: Texture pool is 4186 MB (70% of 5980 MB)
+[2022.11.30-09.33.06:673][  0]LogD3D11RHI: Creating D3DDevice using adapter:
+[2022.11.30-09.33.06:674][  0]LogD3D11RHI:     Description : NVIDIA GeForce RTX 2060
+[2022.11.30-09.33.06:674][  0]LogD3D11RHI:     VendorId    : 10de
+[2022.11.30-09.33.06:674][  0]LogD3D11RHI:     DeviceId    : 1f11
+[2022.11.30-09.33.06:674][  0]LogD3D11RHI:     SubSysId    : 3ffd17aa
+[2022.11.30-09.33.06:674][  0]LogD3D11RHI:     Revision    : 00a1
+[2022.11.30-09.33.06:674][  0]LogD3D11RHI:     DedicatedVideoMemory : 6270484480 bytes
+[2022.11.30-09.33.06:674][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2022.11.30-09.33.06:674][  0]LogD3D11RHI:     SharedSystemMemory : 8521836544 bytes
+[2022.11.30-09.33.06:674][  0]LogD3D11RHI:     AdapterLuid : 0 78827
+[2022.11.30-09.33.06:782][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2022.11.30-09.33.06:782][  0]LogD3D11RHI: Async texture creation enabled
+[2022.11.30-09.33.06:782][  0]LogD3D11RHI: Array index from any shader is supported
+[2022.11.30-09.33.06:818][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2022.11.30-09.33.06:928][  0]LogRHI: GeForceNow SDK initialized: 1
+[2022.11.30-09.33.07:474][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2022.11.30-09.33.07:512][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2022.11.30-09.33.07:512][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2022.11.30-09.33.07:512][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2022.11.30-09.33.07:512][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2022.11.30-09.33.07:512][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2022.11.30-09.33.07:512][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2022.11.30-09.33.07:512][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2022.11.30-09.33.07:512][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2022.11.30-09.33.07:512][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2022.11.30-09.33.07:512][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2022.11.30-09.33.07:541][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2022.11.30-09.33.07:541][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2022.11.30-09.33.07:556][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2022.11.30-09.33.07:563][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2022.11.30-09.33.07:568][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2022.11.30-09.33.07:575][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2022.11.30-09.33.07:590][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2022.11.30-09.33.07:597][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2022.11.30-09.33.07:604][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2022.11.30-09.33.07:638][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2022.11.30-09.33.07:638][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2022.11.30-09.33.07:651][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2022.11.30-09.33.07:658][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2022.11.30-09.33.07:664][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2022.11.30-09.33.07:671][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2022.11.30-09.33.07:685][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2022.11.30-09.33.07:686][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2022.11.30-09.33.07:699][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2022.11.30-09.33.07:706][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.11.30-09.33.07:713][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.11.30-09.33.07:719][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.11.30-09.33.07:719][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.11.30-09.33.07:733][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.11.30-09.33.07:784][  0]LogTextureFormatOodle: Display: Oodle Texture 2.9.0 init RDO Off
+[2022.11.30-09.33.07:841][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2022.11.30-09.33.07:841][  0]LogShaderCompilers: Guid format shader working directory is -92 characters bigger than the processId version (C:/Users/sofia/Desktop/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Prototype/Intermediate/Shaders/WorkingDirectory/24940/).
+[2022.11.30-09.33.07:842][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/sofia/AppData/Local/Temp/UnrealShaderWorkingDir/87E2A42943E0FD003B2B7C986D967ED7/'.
+[2022.11.30-09.33.07:842][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.11.30-09.33.07:842][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2022.11.30-09.33.07:842][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.11.30-09.33.08:987][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.11.30-09.33.09:085][  0]LogDerivedDataCache: Loaded boot cache 0.10s 102MB C:/Users/sofia/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc.
+[2022.11.30-09.33.09:085][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/sofia/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc
+[2022.11.30-09.33.09:085][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/sofia/Desktop/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Prototype/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.11.30-09.33.09:085][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.11.30-09.33.09:085][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/sofia/Desktop/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Prototype/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.11.30-09.33.09:085][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.11.30-09.33.09:108][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.11.30-09.33.09:108][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.11.30-09.33.09:108][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2022.11.30-09.33.09:123][  0]LogDerivedDataCache: Speed tests for C:/Users/sofia/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.01 seconds
+[2022.11.30-09.33.09:123][  0]LogDerivedDataCache: Display: Performance to C:/Users/sofia/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.16ms. RandomReadSpeed=208.77MBs, RandomWriteSpeed=117.22MBs. Assigned SpeedClass 'Local'
+[2022.11.30-09.33.09:124][  0]LogDerivedDataCache: Using Local data cache path C:/Users/sofia/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.11.30-09.33.09:124][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.11.30-09.33.09:124][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2022.11.30-09.33.09:183][  0]LogSlate: Using FreeType 2.10.0
+[2022.11.30-09.33.09:184][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.11.30-09.33.09:218][  0]LogAssetRegistry: FAssetRegistry took 0.0031 seconds to start up
+[2022.11.30-09.33.09:523][  0]LogInit: Selected Device Profile: [Windows]
+[2022.11.30-09.33.09:523][  0]LogInit: Active device profile: [000001C8EEF75400][000001C8EE3B1600 49] Windows
+[2022.11.30-09.33.09:523][  0]LogInit: Profiles: [000001C8EEF75400][000001C8EE3B1600 49] Windows, [000001C8EEF3E900][000001C8EE3B58C0 49] WindowsNoEditor, [000001C8EEF76200][000001C8EE3B9B80 49] WindowsServer, [000001C8EEF3F600][000001C8EE3BC2C0 49] WindowsClient, [000001C8EEF76F00][000001C8EE3C0580 49] IOS, [000001C8EEF3D600][000001C8EE3C4840 49] iPadAir, [000001C8EEF77C00][000001C8EE3C8B00 49] iPadAir2, [000001C8EEEFA600][000001C8EE3DD040 49] IPadPro, [000001C8EEEFA700][000001C8EE3CD080 49] iPadAir3, [000001C8EEF3C300][000001C8EE3AD300 49] iPadAir4, [000001C8EEEFB500][000001C8EE3D5580 49] iPadMini2, [000001C8EEF3ED00][000001C8EE3D9840 49] iPadMini3, [000001C8EEEFA400][000001C8EE3E1B00 49] iPadMini4, [000001C8EEF3DC00][000001C8EE3E4240 49] iPadMini5, [000001C8EEF15F00][000001C8EE3F8780 49] iPhone6, [000001C8EEF16000][000001C8EE3E87C0 49] iPodTouch6, [000001C8EEF76D00][000001C8EE400D00 49] iPhone7, [000001C8EEF75500][000001C8EE3F0D40 49] iPodTouch7, [000001C8EEEFB200][000001C8EE3F5000 49] iPhone5S, [000001C8EEF76000][000001C8EE3ED2C0 49] iPhone6Plus, [000001C8EEEF9200][000001C8EE3D1540 49] iPhone6S, [000001C8EEF76B00][000001C8EE3FD7C0 49] iPhone6SPlus, [000001C8EEEF8A00][000001C8EE409A80 49] iPhone7Plus, [000001C8EEF75100][000001C8EE40C1C0 49] iPhoneSE, [000001C8EEEF8800][000001C8EE410480 49] iPhone8, [000001C8EEF76C00][000001C8EE414740 49] iPhone8Plus, [000001C8EEEFB100][000001C8EE418A00 49] iPhoneX, [000001C8EEF74F00][000001C8EE41CCC0 49] iPhoneXS, [000001C8EEEFAF00][000001C8EE420F80 49] iPhoneXSMax, [000001C8EEF76900][000001C8EE425240 49] iPhoneXR, [000001C8EEF14400][000001C8EE429500 49] iPhone11, [000001C8EEEF9300][000001C8EE405780 49] iPhone11Pro, [000001C8EEF14C00][000001C8EF441A40 49] iPhone11ProMax, [000001C8EEEF9B00][000001C8EF444180 49] iPhoneSE2, [000001C8EEF15400][000001C8EF448440 49] iPhone12Mini, [000001C8EEEFA300][000001C8EF44C700 49] iPhone12, [000001C8EEF15A00][000001C8EF4509C0 49] iPhone12Pro, [000001C8EEEFA100][000001C8EF454C80 49] iPhone12ProMax, [000001C8EEF15D00][000001C8EF458F40 49] iPadPro105, [000001C8EEEF9C00][000001C8EF45D200 49] iPadPro129, [000001C8EEF17F00][000001C8EF5334C0 49] iPadPro97, [000001C8EEEF8400][000001C8EE42D740 49] iPadPro2_129, [000001C8EEF75D00][000001C8EF5379C0 49] iPad5, [000001C8EEF15E00][000001C8EF53E100 49] iPad6, [000001C8EEEF9F00][000001C8EF5423C0 49] iPad7, [000001C8EEF14800][000001C8EF546680 49] iPad8, [000001C8EEEFBC00][000001C8EF54A940 49] iPadPro11, [000001C8EEF14900][000001C8EF54EC00 49] iPadPro2_11, [000001C8EEEF9400][000001C8EF552EC0 49] iPadPro3_129, [000001C8EEF17500][000001C8EF557180 49] iPadPro4_129, [000001C8EEEF8D00][000001C8EF55B440 49] AppleTV, [000001C8EEF15000][000001C8EF55F700 49] AppleTV4K, [000001C8EEEF8100][000001C8EF53B980 49] TVOS, [000001C8EEF14D00][000001C8EF563C00 49] Mac, [000001C8EEEFB700][000001C8EF56A340 49] MacClient, [000001C8EEF16400][000001C8EF56E600 49] MacNoEditor, [000001C8EEEF9800][000001C8EF5728C0 49] MacServer, [000001C8EEF16D00][000001C8EF576B80 49] Linux, [000001C8EEEFA500][000001C8EF57AE40 49] LinuxAArch64, [000001C8EEF14B00][000001C8EF57F100 49] LinuxNoEditor, [000001C8EEEFB400][000001C8EF5833C0 49] LinuxAArch64NoEditor, [000001C8EEF15800][000001C8EF587680 49] LinuxClient, [000001C8EEEF8300][000001C8EF58B940 49] LinuxAArch64Client, [000001C8EEF15200][000001C8EF567BC0 49] LinuxServer, [000001C8EEEFB000][000001C8EF58E2C0 49] LinuxAArch64Server, [000001C8EEF16600][000001C8EF596580 49] Android, [000001C8EEEF9D00][000001C8EF59A840 49] Android_Low, [000001C8EEF16900][000001C8EF59EB00 49] Android_Mid, [000001C8EEEF9100][000001C8EF5A2DC0 49] Android_High, [000001C8EEF14300][000001C8EF5A7080 49] Android_Default, [000001C8EEEF8500][000001C8EF5AB340 49] Android_Adreno4xx, [000001C8EEF15900][000001C8EF5AF600 49] Android_Adreno5xx_Low, [000001C8EEEFA900][000001C8EF5B38C0 49] Android_Adreno5xx, [000001C8EEF14A00][000001C8EF5B7B80 49] Android_Adreno6xx, [000001C8EEEFBA00][000001C8EF592280 49] Android_Adreno6xx_Vulkan, [000001C8EEF17B00][000001C8EF5BA500 49] Android_Mali_T6xx, [000001C8EEEF9600][000001C8EF5C27C0 49] Android_Mali_T7xx, [000001C8EEF15C00][000001C8EF5C6A80 49] Android_Mali_T8xx, [000001C8EEEF9A00][000001C8EF5CAD40 49] Android_Mali_G71, [000001C8EEF15100][000001C8EF5CF000 49] Android_Mali_G72, [000001C8EEEF8900][000001C8EF5D32C0 49] Android_Mali_G72_Vulkan, [000001C8EEF14F00][000001C8EF5D7580 49] Android_Mali_G76, [000001C8EEEFAC00][000001C8EF5DB840 49] Android_Mali_G76_Vulkan, [000001C8EEF15300][000001C8EF5DFB00 49] Android_Mali_G77, [000001C8EEEF9000][000001C8EF5E2240 49] Android_Mali_G77_Vulkan, [000001C8EEF16A00][000001C8EF5BE4C0 49] Android_Mali_G78, [000001C8EEEF8C00][000001C8EF5E6740 49] Android_Mali_G78_Vulkan, [000001C8EEF16800][000001C8EF5EEA00 49] Android_Mali_G710, [000001C8EEEF8700][000001C8EF5F2CC0 49] Android_Mali_G710_Vulkan, [000001C8EEF3DD00][000001C8EF5F6F80 49] Android_Vulkan_SM5, [000001C8EEF74E00][000001C8EF5FB240 49] Android_PowerVR_G6xxx, [000001C8EEF3CB00][000001C8EF5FF500 49] Android_PowerVR_GT7xxx, [000001C8EEF74400][000001C8EF6037C0 49] Android_PowerVR_GE8xxx, [000001C8EEF3F300][000001C8EF607A80 49] Android_PowerVR_GM9xxx, [000001C8EEF77F00][000001C8EF60A1C0 49] Android_PowerVR_GM9xxx_Vulkan, [000001C8EEF3CD00][000001C8EF60E480 49] Android_TegraK1, [000001C8EEF76A00][000001C8EF5EA700 49] Android_Unknown_Vulkan, [000001C8EEF3D700][000001C8EF612980 49] Lumin, [000001C8EEF77400][000001C8EF61AC40 49] Lumin_Desktop, [000001C8EEF3C400][000001C8EF61EF00 49] HoloLens, 
+[2022.11.30-09.33.09:739][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.11.30-09.33.09:739][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.11.30-09.33.09:739][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.11.30-09.33.09:739][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.11.30-09.33.09:739][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.11.30-09.33.09:770][  0]LogNetVersion: MultiplayerPrototype 1.0.0, NetCL: 17155196, EngineNetVer: 17, GameNetVer: 0 (Checksum: 336715637)
+[2022.11.30-09.33.10:668][  0]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/DaylightAmbientCubemap.DaylightAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2022.11.30-09.33.10:765][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2022.11.30-09.33.10:773][  0]LogUObjectArray: 17178 objects as part of root set at end of initial load.
+[2022.11.30-09.33.10:773][  0]LogUObjectAllocator: 4302048 out of 0 bytes used by permanent object pool.
+[2022.11.30-09.33.10:773][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.11.30-09.33.11:348][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: BEA556CE45F304E3E036D29CB8149F01 | Instance: 08E317654F86DCF605E9238285797900 (LAPTOP-TJ19799S-24940).
+[2022.11.30-09.33.11:562][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.11.30-09.33.11:570][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.11.30-09.33.11:591][  0]LogPython: Using Python 3.7.7
+[2022.11.30-09.33.12:567][  0]LogActor: Warning: SetReplicates called on non-initialized actor Default__WeaponBase. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2022.11.30-09.33.12:567][  0]LogActor: Warning: SetReplicates called on non-initialized actor Default__AssaultRifle. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2022.11.30-09.33.12:567][  0]LogActor: Warning: SetReplicates called on non-initialized actor Default__Axe. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2022.11.30-09.33.12:567][  0]LogActor: Warning: SetReplicates called on non-initialized actor Default__BaseballBat. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2022.11.30-09.33.12:839][  0]LogActor: Warning: SetReplicates called on non-initialized actor Default__Pistol. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2022.11.30-09.33.13:038][  0]SourceControl: Source control is disabled
+[2022.11.30-09.33.13:038][  0]SourceControl: Source control is disabled
+[2022.11.30-09.33.13:044][  0]SourceControl: Source control is disabled
+[2022.11.30-09.33.13:055][  0]SourceControl: Source control is disabled
+[2022.11.30-09.33.13:070][  0]SourceControl: Source control is disabled
+[2022.11.30-09.33.13:087][  0]LogUProjectInfo: Found projects:
+[2022.11.30-09.33.13:501][  0]LogOpenImageDenoise: OIDN starting up
+[2022.11.30-09.33.13:541][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.11.30-09.33.13:581][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.11.30-09.33.13:581][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.11.30-09.33.13:859][  0]LogCollectionManager: Loaded 0 collections in 0.001701 seconds
+[2022.11.30-09.33.13:906][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sofia/Desktop/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Prototype/Saved/Collections/' took 0.00s
+[2022.11.30-09.33.13:906][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sofia/Desktop/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Prototype/Content/Developers/sofia/Collections/' took 0.00s
+[2022.11.30-09.33.13:906][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sofia/Desktop/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Prototype/Content/Collections/' took 0.00s
+[2022.11.30-09.33.13:906][  0]LogOcInput: OculusInput pre-init called
+[2022.11.30-09.33.14:359][  0]LogEngine: Initializing Engine...
+[2022.11.30-09.33.14:365][  0]LogHMD: Failed to enumerate extensions. Please check that you have a valid OpenXR runtime installed.
+[2022.11.30-09.33.14:365][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.11.30-09.33.14:365][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2022.11.30-09.33.14:367][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2022.11.30-09.33.14:592][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.11.30-09.33.14:609][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.11.30-09.33.14:610][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2022.11.30-09.33.14:617][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2022.11.30-09.33.14:618][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2022.11.30-09.33.14:619][  0]LogAudio: Display: Audio Device Manager Initialized
+[2022.11.30-09.33.14:619][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2022.11.30-09.33.14:619][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.30-09.33.14:619][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.30-09.33.14:619][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.30-09.33.14:619][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.30-09.33.14:619][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.30-09.33.14:619][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.11.30-09.33.14:619][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.30-09.33.14:619][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.30-09.33.14:620][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.30-09.33.14:620][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.30-09.33.14:620][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.30-09.33.14:620][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2022.11.30-09.33.14:644][  0]LogAudioMixer: Display: 0: FrontLeft
+[2022.11.30-09.33.14:644][  0]LogAudioMixer: Display: 1: FrontRight
+[2022.11.30-09.33.15:346][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.11.30-09.33.15:349][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.30-09.33.15:357][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.30-09.33.15:357][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.30-09.33.15:358][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.11.30-09.33.15:358][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.11.30-09.33.15:358][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.11.30-09.33.15:359][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.11.30-09.33.15:359][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.11.30-09.33.15:359][  0]LogInit: FAudioDevice initialized.
+[2022.11.30-09.33.15:360][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2022.11.30-09.33.15:360][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.11.30-09.33.15:422][  0]LogDerivedDataCache: Saved boot cache 0.06s 102MB C:/Users/sofia/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc.
+[2022.11.30-09.33.15:423][  0]LogInit: Texture streaming: Enabled
+[2022.11.30-09.33.15:443][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.27.2-18319896+++UE4+Release-4.27
+[2022.11.30-09.33.15:454][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.11.30-09.33.15:454][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={7952440F-4DDB-965D-D00E-78B5D3593536}
+[2022.11.30-09.33.15:454][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2022.11.30-09.33.15:465][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2022.11.30-09.33.15:514][  0]LogInit: Transaction tracking system initialized
+[2022.11.30-09.33.15:558][  0]BlueprintLog: New page: Editor Load
+[2022.11.30-09.33.15:672][  0]LocalizationService: Localization service is disabled
+[2022.11.30-09.33.15:718][  0]TimingProfiler: Initialize
+[2022.11.30-09.33.15:718][  0]TimingProfiler: OnSessionChanged
+[2022.11.30-09.33.15:718][  0]LoadingProfiler: Initialize
+[2022.11.30-09.33.15:718][  0]LoadingProfiler: OnSessionChanged
+[2022.11.30-09.33.15:718][  0]NetworkingProfiler: Initialize
+[2022.11.30-09.33.15:719][  0]NetworkingProfiler: OnSessionChanged
+[2022.11.30-09.33.15:719][  0]MemoryProfiler: Initialize
+[2022.11.30-09.33.15:719][  0]MemoryProfiler: OnSessionChanged
+[2022.11.30-09.33.16:001][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2022.11.30-09.33.16:001][  0]LogCook: Display: Mobile HDR setting 1
+[2022.11.30-09.33.16:399][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sofia/Desktop/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Prototype/Content/' took 0.01s
+[2022.11.30-09.33.16:831][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2022.11.30-09.33.16:847][  0]SourceControl: Source control is disabled
+[2022.11.30-09.33.16:848][  0]LogUnrealEdMisc: Loading editor; pre map load, took 15.470
+[2022.11.30-09.33.16:850][  0]LightingResults: New page: Lighting Build
+[2022.11.30-09.33.16:855][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.11.30-09.33.16:855][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.30-09.33.16:855][  0]MapCheck: New page: Map Check
+[2022.11.30-09.33.16:855][  0]LightingResults: New page: Lighting Build
+[2022.11.30-09.33.16:866][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.30-09.33.16:873][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2022.11.30-09.33.17:028][  0]LogActor: Warning: SetReplicates called on non-initialized actor Default__BP_BaseballBat_C. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2022.11.30-09.33.17:030][  0]LogActor: Warning: SetReplicates called on non-initialized actor Default__SKEL_BP_BaseballBat_C. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2022.11.30-09.33.17:032][  0]LogActor: Warning: SetReplicates called on non-initialized actor Default__BP_Pistol_C. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2022.11.30-09.33.17:034][  0]LogActor: Warning: SetReplicates called on non-initialized actor Default__SKEL_BP_Pistol_C. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2022.11.30-09.33.17:139][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'FirstPersonExampleMap'.
+[2022.11.30-09.33.17:141][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.11.30-09.33.17:158][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.11.30-09.33.17:174][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2022.11.30-09.33.17:175][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.11.30-09.33.17:175][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,515ms to complete.
+[2022.11.30-09.33.17:176][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.328
+[2022.11.30-09.33.17:189][  0]LogUnrealEdMisc: Total Editor Startup Time, took 15.811
+[2022.11.30-09.33.17:378][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.30-09.33.17:390][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.30-09.33.17:406][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.30-09.33.17:420][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.30-09.33.17:456][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0192 seconds. Added 3840 classes and 930 folders.
+[2022.11.30-09.33.17:461][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2022.11.30-09.33.17:467][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2022.11.30-09.33.17:467][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.11.30-09.33.17:467][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.11.30-09.33.17:467][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Programs/UE_4.27/FeaturePacks/FP_FirstPerson.upack' (chunk index -1, root 'root:/') mounted
+[2022.11.30-09.33.17:467][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Programs/UE_4.27/FeaturePacks/FP_FirstPerson.upack)
+[2022.11.30-09.33.17:467][  0]LogPakFile: OnPakFileMounted2Time == 0.000116
+[2022.11.30-09.33.17:470][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2022.11.30-09.33.17:470][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.11.30-09.33.17:470][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2022.11.30-09.33.17:470][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Programs/UE_4.27/FeaturePacks/FP_FirstPersonBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.11.30-09.33.17:471][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Programs/UE_4.27/FeaturePacks/FP_FirstPersonBP.upack)
+[2022.11.30-09.33.17:471][  0]LogPakFile: OnPakFileMounted2Time == 0.000110
+[2022.11.30-09.33.17:473][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2022.11.30-09.33.17:474][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.11.30-09.33.17:474][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2022.11.30-09.33.17:474][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Programs/UE_4.27/FeaturePacks/MobileStarterContent.upack' (chunk index -1, root 'root:/') mounted
+[2022.11.30-09.33.17:474][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Programs/UE_4.27/FeaturePacks/MobileStarterContent.upack)
+[2022.11.30-09.33.17:474][  0]LogPakFile: OnPakFileMounted2Time == 0.000092
+[2022.11.30-09.33.17:477][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.11.30-09.33.17:477][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.11.30-09.33.17:477][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.11.30-09.33.17:477][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Programs/UE_4.27/FeaturePacks/StarterContent.upack' (chunk index -1, root 'root:/') mounted
+[2022.11.30-09.33.17:477][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Programs/UE_4.27/FeaturePacks/StarterContent.upack)
+[2022.11.30-09.33.17:477][  0]LogPakFile: OnPakFileMounted2Time == 0.000092
+[2022.11.30-09.33.17:481][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2022.11.30-09.33.17:481][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.11.30-09.33.17:481][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2022.11.30-09.33.17:481][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Programs/UE_4.27/FeaturePacks/TP_2DSideScroller.upack' (chunk index -1, root 'root:/') mounted
+[2022.11.30-09.33.17:481][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Programs/UE_4.27/FeaturePacks/TP_2DSideScroller.upack)
+[2022.11.30-09.33.17:481][  0]LogPakFile: OnPakFileMounted2Time == 0.000167
+[2022.11.30-09.33.17:485][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2022.11.30-09.33.17:485][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.11.30-09.33.17:485][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2022.11.30-09.33.17:485][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Programs/UE_4.27/FeaturePacks/TP_2DSideScrollerBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.11.30-09.33.17:485][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Programs/UE_4.27/FeaturePacks/TP_2DSideScrollerBP.upack)
+[2022.11.30-09.33.17:485][  0]LogPakFile: OnPakFileMounted2Time == 0.000088
+[2022.11.30-09.33.17:488][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2022.11.30-09.33.17:488][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.11.30-09.33.17:488][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2022.11.30-09.33.17:488][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Programs/UE_4.27/FeaturePacks/TP_Flying.upack' (chunk index -1, root 'root:/') mounted
+[2022.11.30-09.33.17:488][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Programs/UE_4.27/FeaturePacks/TP_Flying.upack)
+[2022.11.30-09.33.17:488][  0]LogPakFile: OnPakFileMounted2Time == 0.000082
+[2022.11.30-09.33.17:491][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2022.11.30-09.33.17:491][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.11.30-09.33.17:491][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2022.11.30-09.33.17:491][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Programs/UE_4.27/FeaturePacks/TP_FlyingBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.11.30-09.33.17:491][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Programs/UE_4.27/FeaturePacks/TP_FlyingBP.upack)
+[2022.11.30-09.33.17:492][  0]LogPakFile: OnPakFileMounted2Time == 0.000094
+[2022.11.30-09.33.17:495][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2022.11.30-09.33.17:495][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.11.30-09.33.17:495][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2022.11.30-09.33.17:495][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Programs/UE_4.27/FeaturePacks/TP_HandheldARBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.11.30-09.33.17:495][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Programs/UE_4.27/FeaturePacks/TP_HandheldARBP.upack)
+[2022.11.30-09.33.17:495][  0]LogPakFile: OnPakFileMounted2Time == 0.000088
+[2022.11.30-09.33.17:500][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2022.11.30-09.33.17:500][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.11.30-09.33.17:501][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2022.11.30-09.33.17:501][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Programs/UE_4.27/FeaturePacks/TP_Puzzle.upack' (chunk index -1, root 'root:/') mounted
+[2022.11.30-09.33.17:501][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Programs/UE_4.27/FeaturePacks/TP_Puzzle.upack)
+[2022.11.30-09.33.17:501][  0]LogPakFile: OnPakFileMounted2Time == 0.000131
+[2022.11.30-09.33.17:504][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2022.11.30-09.33.17:504][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.11.30-09.33.17:504][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2022.11.30-09.33.17:504][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Programs/UE_4.27/FeaturePacks/TP_PuzzleBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.11.30-09.33.17:504][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Programs/UE_4.27/FeaturePacks/TP_PuzzleBP.upack)
+[2022.11.30-09.33.17:504][  0]LogPakFile: OnPakFileMounted2Time == 0.000154
+[2022.11.30-09.33.17:508][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2022.11.30-09.33.17:508][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.11.30-09.33.17:508][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2022.11.30-09.33.17:508][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Programs/UE_4.27/FeaturePacks/TP_Rolling.upack' (chunk index -1, root 'root:/') mounted
+[2022.11.30-09.33.17:508][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Programs/UE_4.27/FeaturePacks/TP_Rolling.upack)
+[2022.11.30-09.33.17:508][  0]LogPakFile: OnPakFileMounted2Time == 0.000151
+[2022.11.30-09.33.17:511][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.11.30-09.33.17:511][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.11.30-09.33.17:511][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.11.30-09.33.17:512][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Programs/UE_4.27/FeaturePacks/TP_RollingBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.11.30-09.33.17:512][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Programs/UE_4.27/FeaturePacks/TP_RollingBP.upack)
+[2022.11.30-09.33.17:512][  0]LogPakFile: OnPakFileMounted2Time == 0.000204
+[2022.11.30-09.33.17:515][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2022.11.30-09.33.17:515][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.11.30-09.33.17:515][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2022.11.30-09.33.17:515][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Programs/UE_4.27/FeaturePacks/TP_SideScroller.upack' (chunk index -1, root 'root:/') mounted
+[2022.11.30-09.33.17:515][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Programs/UE_4.27/FeaturePacks/TP_SideScroller.upack)
+[2022.11.30-09.33.17:515][  0]LogPakFile: OnPakFileMounted2Time == 0.000092
+[2022.11.30-09.33.17:519][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2022.11.30-09.33.17:519][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.11.30-09.33.17:519][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2022.11.30-09.33.17:519][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Programs/UE_4.27/FeaturePacks/TP_SideScrollerBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.11.30-09.33.17:519][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Programs/UE_4.27/FeaturePacks/TP_SideScrollerBP.upack)
+[2022.11.30-09.33.17:519][  0]LogPakFile: OnPakFileMounted2Time == 0.000091
+[2022.11.30-09.33.17:522][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2022.11.30-09.33.17:522][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.11.30-09.33.17:522][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.11.30-09.33.17:522][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Programs/UE_4.27/FeaturePacks/TP_ThirdPerson.upack' (chunk index -1, root 'root:/') mounted
+[2022.11.30-09.33.17:522][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Programs/UE_4.27/FeaturePacks/TP_ThirdPerson.upack)
+[2022.11.30-09.33.17:522][  0]LogPakFile: OnPakFileMounted2Time == 0.000128
+[2022.11.30-09.33.17:526][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2022.11.30-09.33.17:526][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.11.30-09.33.17:526][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2022.11.30-09.33.17:526][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Programs/UE_4.27/FeaturePacks/TP_ThirdPersonBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.11.30-09.33.17:526][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Programs/UE_4.27/FeaturePacks/TP_ThirdPersonBP.upack)
+[2022.11.30-09.33.17:526][  0]LogPakFile: OnPakFileMounted2Time == 0.000092
+[2022.11.30-09.33.17:529][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2022.11.30-09.33.17:529][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.11.30-09.33.17:530][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2022.11.30-09.33.17:530][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Programs/UE_4.27/FeaturePacks/TP_TopDown.upack' (chunk index -1, root 'root:/') mounted
+[2022.11.30-09.33.17:530][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Programs/UE_4.27/FeaturePacks/TP_TopDown.upack)
+[2022.11.30-09.33.17:530][  0]LogPakFile: OnPakFileMounted2Time == 0.000148
+[2022.11.30-09.33.17:533][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.11.30-09.33.17:533][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.11.30-09.33.17:533][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.11.30-09.33.17:533][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Programs/UE_4.27/FeaturePacks/TP_TopDownBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.11.30-09.33.17:533][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Programs/UE_4.27/FeaturePacks/TP_TopDownBP.upack)
+[2022.11.30-09.33.17:533][  0]LogPakFile: OnPakFileMounted2Time == 0.000113
+[2022.11.30-09.33.17:536][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.11.30-09.33.17:537][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.11.30-09.33.17:537][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.11.30-09.33.17:537][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Programs/UE_4.27/FeaturePacks/TP_TwinStick.upack' (chunk index -1, root 'root:/') mounted
+[2022.11.30-09.33.17:537][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Programs/UE_4.27/FeaturePacks/TP_TwinStick.upack)
+[2022.11.30-09.33.17:537][  0]LogPakFile: OnPakFileMounted2Time == 0.000144
+[2022.11.30-09.33.17:541][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2022.11.30-09.33.17:541][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.11.30-09.33.17:541][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.11.30-09.33.17:541][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Programs/UE_4.27/FeaturePacks/TP_TwinStickBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.11.30-09.33.17:541][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Programs/UE_4.27/FeaturePacks/TP_TwinStickBP.upack)
+[2022.11.30-09.33.17:541][  0]LogPakFile: OnPakFileMounted2Time == 0.000082
+[2022.11.30-09.33.17:544][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2022.11.30-09.33.17:544][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.11.30-09.33.17:544][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2022.11.30-09.33.17:544][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Programs/UE_4.27/FeaturePacks/TP_Vehicle.upack' (chunk index -1, root 'root:/') mounted
+[2022.11.30-09.33.17:544][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Programs/UE_4.27/FeaturePacks/TP_Vehicle.upack)
+[2022.11.30-09.33.17:544][  0]LogPakFile: OnPakFileMounted2Time == 0.000085
+[2022.11.30-09.33.17:548][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2022.11.30-09.33.17:548][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.11.30-09.33.17:548][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2022.11.30-09.33.17:548][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Programs/UE_4.27/FeaturePacks/TP_VehicleAdv.upack' (chunk index -1, root 'root:/') mounted
+[2022.11.30-09.33.17:548][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Programs/UE_4.27/FeaturePacks/TP_VehicleAdv.upack)
+[2022.11.30-09.33.17:548][  0]LogPakFile: OnPakFileMounted2Time == 0.000145
+[2022.11.30-09.33.17:551][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2022.11.30-09.33.17:552][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.11.30-09.33.17:552][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2022.11.30-09.33.17:552][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Programs/UE_4.27/FeaturePacks/TP_VehicleAdvBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.11.30-09.33.17:552][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Programs/UE_4.27/FeaturePacks/TP_VehicleAdvBP.upack)
+[2022.11.30-09.33.17:552][  0]LogPakFile: OnPakFileMounted2Time == 0.000166
+[2022.11.30-09.33.17:555][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.11.30-09.33.17:555][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.11.30-09.33.17:555][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.11.30-09.33.17:555][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Programs/UE_4.27/FeaturePacks/TP_VehicleBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.11.30-09.33.17:555][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Programs/UE_4.27/FeaturePacks/TP_VehicleBP.upack)
+[2022.11.30-09.33.17:555][  0]LogPakFile: OnPakFileMounted2Time == 0.000156
+[2022.11.30-09.33.17:559][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2022.11.30-09.33.17:559][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.11.30-09.33.17:559][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2022.11.30-09.33.17:559][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Programs/UE_4.27/FeaturePacks/TP_VirtualRealityBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.11.30-09.33.17:559][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Programs/UE_4.27/FeaturePacks/TP_VirtualRealityBP.upack)
+[2022.11.30-09.33.17:559][  0]LogPakFile: OnPakFileMounted2Time == 0.000137
+[2022.11.30-09.33.17:808][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2022.11.30-09.33.17:815][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2022.11.30-09.33.19:074][  0]LogSlate: Took 0.000446 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.11.30-09.33.19:078][  0]LogSlate: Took 0.003230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.11.30-09.33.19:080][  0]LogSlate: Took 0.000381 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.11.30-09.33.19:087][  0]LogSlate: Took 0.001250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.11.30-09.33.19:311][  0]LogRenderer: Reallocating scene render targets to support 976x460 Format 10 NumSamples 1 (Frame:1).
+[2022.11.30-09.33.19:464][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2022.11.30-09.33.19:464][  0]LogLoad: (Engine Initialization) Total time: 18.09 seconds
+[2022.11.30-09.33.19:464][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.11.30-09.33.19:542][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.11.30-09.33.19:585][  1]LogAssetRegistry: Asset discovery search completed in 10.3678 seconds
+[2022.11.30-09.33.19:600][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
+[2022.11.30-09.33.25:694][359]Candidate modules for hot reload:
+[2022.11.30-09.33.25:694][359]  MultiplayerPrototype
+[2022.11.30-09.33.25:694][359]Launching UnrealBuildTool... [D:/Programs/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MultiplayerPrototype,3770 MultiplayerPrototypeEditor Win64 Development -Project="C:/Users/sofia/Desktop/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Prototype/MultiplayerPrototype.uproject" "C:/Users/sofia/Desktop/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Not Dead Enough (zombie prototype)/Prototype/MultiplayerPrototype.uproject"  -IgnoreJunk]
+[2022.11.30-09.33.25:741][359]Warning: Starting HotReload took  0.1s.
+[2022.11.30-09.33.30:066][609]CompilerResultsLog: New page: Compilation - 30/11/2022, 09:33:30
+[2022.11.30-09.33.30:066][609]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\sofia\Desktop\Not Dead Enough (zombie prototype)\Not Dead Enough (zombie prototype)\Not Dead Enough (zombie prototype)).
+[2022.11.30-09.33.30:066][609]CompilerResultsLog: Building MultiplayerPrototypeEditor...
+[2022.11.30-09.33.30:066][609]CompilerResultsLog: Using Visual Studio 2019 14.29.30147 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.11.30-09.33.30:066][609]CompilerResultsLog: Building 3 actions with 12 processes...
+[2022.11.30-09.33.30:066][609]CompilerResultsLog:   [1/3] UE4Editor-MultiplayerPrototype-3770.lib
+[2022.11.30-09.33.30:066][609]CompilerResultsLog:      Creating library C:\Users\sofia\Desktop\Not Dead Enough (zombie prototype)\Not Dead Enough (zombie prototype)\Not Dead Enough (zombie prototype)\Prototype\Intermediate\Build\Win64\UE4Editor\Development\MultiplayerPrototype\UE4Editor-MultiplayerPrototype-3770.lib and object C:\Users\sofia\Desktop\Not Dead Enough (zombie prototype)\Not Dead Enough (zombie prototype)\Not Dead Enough (zombie prototype)\Prototype\Intermediate\Build\Win64\UE4Editor\Development\MultiplayerPrototype\UE4Editor-MultiplayerPrototype-3770.exp
+[2022.11.30-09.33.30:066][609]CompilerResultsLog:   [2/3] UE4Editor-MultiplayerPrototype-3770.dll
+[2022.11.30-09.33.30:066][609]CompilerResultsLog:      Creating library C:\Users\sofia\Desktop\Not Dead Enough (zombie prototype)\Not Dead Enough (zombie prototype)\Not Dead Enough (zombie prototype)\Prototype\Intermediate\Build\Win64\UE4Editor\Development\MultiplayerPrototype\UE4Editor-MultiplayerPrototype-3770.suppressed.lib and object C:\Users\sofia\Desktop\Not Dead Enough (zombie prototype)\Not Dead Enough (zombie prototype)\Not Dead Enough (zombie prototype)\Prototype\Intermediate\Build\Win64\UE4Editor\Development\MultiplayerPrototype\UE4Editor-MultiplayerPrototype-3770.suppressed.exp
+[2022.11.30-09.33.30:066][609]CompilerResultsLog:   [3/3] MultiplayerPrototypeEditor.target
+[2022.11.30-09.33.30:066][609]CompilerResultsLog: Total time in Parallel executor: 1,98 seconds
+[2022.11.30-09.33.30:066][609]CompilerResultsLog: Total execution time: 4,17 seconds
+[2022.11.30-09.33.30:067][609]LogMainFrame: MainFrame: Module compiling took 4.387 seconds
+[2022.11.30-09.33.30:094][609]LogClass: EWeaponID HotReload.
+[2022.11.30-09.33.30:095][609]LogActor: Warning: SetReplicates called on non-initialized actor Default__AssaultRifle. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2022.11.30-09.33.30:096][609]LogActor: Warning: SetReplicates called on non-initialized actor Default__Axe. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2022.11.30-09.33.30:098][609]LogActor: Warning: SetReplicates called on non-initialized actor Default__BaseballBat. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2022.11.30-09.33.30:118][609]LogActor: Warning: SetReplicates called on non-initialized actor Default__Pistol. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2022.11.30-09.33.30:129][609]LogActor: Warning: SetReplicates called on non-initialized actor Default__WeaponBase. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2022.11.30-09.33.30:131][609]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MultiplayerPrototype' in 0.0005 seconds. Added 18 classes and 2 folders.
+[2022.11.30-09.33.30:144][609]Display: HotReload successful (15 functions remapped  0 scriptstructs remapped)
+[2022.11.30-09.33.30:224][609]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0140 seconds. Added 3840 classes and 930 folders.
+[2022.11.30-09.33.30:224][609]Display: HotReload took  4.5s.
+[2022.11.30-09.33.36:145][962]LogTemp: Repeating last play command: Selected Viewport
+[2022.11.30-09.33.36:159][962]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.30-09.33.36:160][962]PIE: New page: PIE session: FirstPersonExampleMap (30/11/2022, 09:33:36)
+[2022.11.30-09.33.36:166][962]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2022.11.30-09.33.36:168][962]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.11.30-09.33.36:168][962]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.11.30-09.33.36:184][962]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016100s)
+[2022.11.30-09.33.36:186][962]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.11.30-09.33.36:187][962]LogPlayLevel: PIE: World Init took: (0.002427s)
+[2022.11.30-09.33.36:187][962]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.018737s)
+[2022.11.30-09.33.36:206][962]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2022.11.30-09.33.36:212][962]LogLoad: Game class is 'BP_ZombieGamemode_C'
+[2022.11.30-09.33.36:221][962]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2022.11.30-09.33.36
+[2022.11.30-09.33.36:230][962]LogWorld: Bringing up level for play took: 0.011147
+[2022.11.30-09.33.36:231][962]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2022.11.30-09.33.36:231][962]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2022.11.30-09.33.36:232][962]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2022.11.30-09.33.36:233][962]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2022.11.30-09.33.36:233][962]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.11.30-09.33.36:233][962]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2022.11.30-09.33.36:234][962]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2022.11.30-09.33.36:236][962]LogScript: Warning: Accessed None trying to read property CallFunc_Create_ReturnValue
+	FirstPersonExampleMap_C /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap_C_0
+	Function /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C:ExecuteUbergraph_FirstPersonExampleMap:004C
+[2022.11.30-09.33.36:236][962]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  FirstPersonExampleMap Function:  Execute Ubergraph First Person Example Map Graph:  EventGraph Node:  Add to Viewport
+[2022.11.30-09.33.36:237][962]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2022.11.30-09.33.36:238][962]PIE: Server logged in
+[2022.11.30-09.33.36:238][962]PIE: Play in editor total start time 0,086 seconds.
+[2022.11.30-09.33.36:240][962]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.11.30-09.33.36:240][962]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.30-09.33.36:240][962]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.30-09.33.36:240][962]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.30-09.33.36:240][962]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.30-09.33.36:240][962]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.30-09.33.36:240][962]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.11.30-09.33.36:240][962]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.30-09.33.36:240][962]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.30-09.33.36:241][962]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.30-09.33.36:241][962]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.30-09.33.36:241][962]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.30-09.33.36:241][962]LogAudioMixer: Display: Initializing audio mixer.
+[2022.11.30-09.33.36:245][962]LogAudioMixer: Display: 0: FrontLeft
+[2022.11.30-09.33.36:245][962]LogAudioMixer: Display: 1: FrontRight
+[2022.11.30-09.33.36:266][962]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.11.30-09.33.36:266][962]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.30-09.33.36:266][962]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.30-09.33.36:266][962]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.30-09.33.36:267][962]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.11.30-09.33.36:267][962]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.11.30-09.33.36:267][962]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.11.30-09.33.36:268][962]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.11.30-09.33.36:268][962]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.11.30-09.33.36:268][962]LogInit: FAudioDevice initialized.
+[2022.11.30-09.33.36:268][962]LogAudio: Display: Audio Device (ID: 2) registered with world 'Untitled'.
+[2022.11.30-09.33.36:275][962]LogNet: Browse: 127.0.0.1:17777/Game/FirstPersonCPP/Maps/FirstPersonExampleMap
+[2022.11.30-09.33.36:276][962]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2022.11.30-09.33.36:276][962]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2022.11.30-09.33.36:276][962]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.11.30-09.33.36:277][962]LogNet: Game client on port 17777, rate 100000
+[2022.11.30-09.33.36:277][962]PIE: Client logged in
+[2022.11.30-09.33.36:278][962]PIE: Play in editor total start time 0,126 seconds.
+[2022.11.30-09.33.36:280][962]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.11.30-09.33.36:280][962]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.30-09.33.36:280][962]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.30-09.33.36:280][962]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.30-09.33.36:280][962]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.30-09.33.36:280][962]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.30-09.33.36:280][962]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.11.30-09.33.36:280][962]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.30-09.33.36:280][962]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.30-09.33.36:281][962]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.30-09.33.36:281][962]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.30-09.33.36:281][962]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.30-09.33.36:281][962]LogAudioMixer: Display: Initializing audio mixer.
+[2022.11.30-09.33.36:285][962]LogAudioMixer: Display: 0: FrontLeft
+[2022.11.30-09.33.36:285][962]LogAudioMixer: Display: 1: FrontRight
+[2022.11.30-09.33.36:303][962]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.11.30-09.33.36:303][962]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.30-09.33.36:303][962]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.30-09.33.36:303][962]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.30-09.33.36:303][962]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.11.30-09.33.36:303][962]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.11.30-09.33.36:303][962]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.11.30-09.33.36:305][962]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.11.30-09.33.36:305][962]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.11.30-09.33.36:305][962]LogInit: FAudioDevice initialized.
+[2022.11.30-09.33.36:305][962]LogAudio: Display: Audio Device (ID: 3) registered with world 'Untitled'.
+[2022.11.30-09.33.36:340][962]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.30-09.33.36:340][962]LogNet: Browse: 127.0.0.1:17777/Game/FirstPersonCPP/Maps/FirstPersonExampleMap
+[2022.11.30-09.33.36:340][962]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2022.11.30-09.33.36:340][962]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2022.11.30-09.33.36:341][962]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.11.30-09.33.36:341][962]LogNet: Game client on port 17777, rate 100000
+[2022.11.30-09.33.36:342][962]PIE: Client logged in
+[2022.11.30-09.33.36:343][962]PIE: Play in editor total start time 0,191 seconds.
+[2022.11.30-09.33.36:426][962]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2022.11.30-09.33.37:304][ 12]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61228
+[2022.11.30-09.33.37:307][ 12]LogHandshake: SendConnectChallenge. Timestamp: 1.173665, Cookie: 053023147174200060187121171084174069027061140004180023130179
+[2022.11.30-09.33.37:307][ 12]LogHandshake: SendChallengeResponse. Timestamp: 1.173665, Cookie: 053023147174200060187121171084174069027061140004180023130179
+[2022.11.30-09.33.37:326][ 13]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61228
+[2022.11.30-09.33.37:326][ 13]LogHandshake: SendChallengeAck. InCookie: 053023147174200060187121171084174069027061140004180023130179
+[2022.11.30-09.33.37:326][ 13]LogNet: Server accepting post-challenge connection from: 127.0.0.1:61228
+[2022.11.30-09.33.37:326][ 13]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.11.30-09.33.37:327][ 13]LogNet: NotifyAcceptedConnection: Name: FirstPersonExampleMap, TimeStamp: 11/30/22 09:33:37, [UNetConnection] RemoteAddr: 127.0.0.1:61228, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.11.30-09.33.37:327][ 13]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:61228, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.11.30-09.33.37:328][ 13]LogNetVersion: MultiplayerPrototype 1.0.0.0, NetCL: 17155196, EngineNetVer: 17, GameNetVer: 0 (Checksum: 3273966084)
+[2022.11.30-09.33.37:328][ 13]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.11.30-09.33.37:336][ 14]LogNet: NotifyAcceptingChannel Control 0 server World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap: Accepted
+[2022.11.30-09.33.37:336][ 14]LogNet: Remote platform little endian=1
+[2022.11.30-09.33.37:336][ 14]LogNet: This platform little endian=1
+[2022.11.30-09.33.37:337][ 14]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2022.11.30-09.33.37:354][ 15]LogNet: Login request: ?Name=LAPTOP-TJ19799S-4EA8705B4C1F553B2A4C84A12C4BBADC userId: NULL:LAPTOP-TJ19799S-4EA8705B4C1F553B2A4C84A12C4BBADC platform: NULL
+[2022.11.30-09.33.37:354][ 15]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61229
+[2022.11.30-09.33.37:354][ 15]LogHandshake: SendConnectChallenge. Timestamp: 1.223666, Cookie: 116166109165250184166178091079005084178036207006121053061009
+[2022.11.30-09.33.37:355][ 15]LogNet: Welcomed by server (Level: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap, Game: /Game/BluePrints/BP_ZombieGamemode.BP_ZombieGamemode_C)
+[2022.11.30-09.33.37:356][ 15]LogLoad: LoadMap: 127.0.0.1:17777/Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap?game=/Game/BluePrints/BP_ZombieGamemode.BP_ZombieGamemode_C
+[2022.11.30-09.33.37:356][ 15]LogWorld: BeginTearingDown for /Temp/Untitled_1
+[2022.11.30-09.33.37:356][ 15]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.11.30-09.33.37:356][ 15]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.30-09.33.37:363][ 15]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.30-09.33.37:365][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2022.11.30-09.33.37:381][ 15]LogAudio: Display: Audio Device (ID: 2) registered with world 'FirstPersonExampleMap'.
+[2022.11.30-09.33.37:383][ 15]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.11.30-09.33.37:391][ 15]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2022.11.30-09.33.37
+[2022.11.30-09.33.37:392][ 15]LogWorld: Bringing up level for play took: 0.007015
+[2022.11.30-09.33.37:392][ 15]LogLoad: Took 0.036847 seconds to LoadMap(/Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap)
+[2022.11.30-09.33.37:393][ 15]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2022.11.30-09.33.37:393][ 15]LogHandshake: SendChallengeResponse. Timestamp: 1.223666, Cookie: 116166109165250184166178091079005084178036207006121053061009
+[2022.11.30-09.33.37:444][ 16]LogNet: Client netspeed is 100000
+[2022.11.30-09.33.37:444][ 16]LogNet: Join request: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap?Name=LAPTOP-TJ19799S-4EA8705B4C1F553B2A4C84A12C4BBADC?SplitscreenCount=1
+[2022.11.30-09.33.37:445][ 16]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.11.30-09.33.37:448][ 16]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2022.11.30-09.33.37:450][ 16]LogActor: Warning: SetReplicates called on non-initialized actor BP_Pistol_C_0. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2022.11.30-09.33.37:450][ 16]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.37:450][ 16]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.37:451][ 16]LogActor: Warning: SetReplicates called on non-initialized actor BP_BaseballBat_C_0. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2022.11.30-09.33.37:451][ 16]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.37:451][ 16]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2022.11.30-09.33.37:452][ 16]LogNet: Join succeeded: LAPTOP-TJ19799S-4EA8
+[2022.11.30-09.33.37:452][ 16]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61229
+[2022.11.30-09.33.37:452][ 16]LogHandshake: SendChallengeAck. InCookie: 116166109165250184166178091079005084178036207006121053061009
+[2022.11.30-09.33.37:452][ 16]LogNet: Server accepting post-challenge connection from: 127.0.0.1:61229
+[2022.11.30-09.33.37:452][ 16]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.11.30-09.33.37:452][ 16]LogNet: NotifyAcceptedConnection: Name: FirstPersonExampleMap, TimeStamp: 11/30/22 09:33:37, [UNetConnection] RemoteAddr: 127.0.0.1:61229, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.11.30-09.33.37:452][ 16]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:61229, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.11.30-09.33.37:459][ 16]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_1, Driver: PendingNetDriver IpNetDriver_2, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.11.30-09.33.37:474][ 17]LogNet: NotifyAcceptingChannel Control 0 server World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap: Accepted
+[2022.11.30-09.33.37:474][ 17]LogNet: Remote platform little endian=1
+[2022.11.30-09.33.37:474][ 17]LogNet: This platform little endian=1
+[2022.11.30-09.33.37:480][ 17]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.11.30-09.33.37:480][ 17]LogActor: Warning: SetReplicates called on non-initialized actor BP_Pistol_C_0. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2022.11.30-09.33.37:481][ 17]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.37:481][ 17]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.37:485][ 17]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2022.11.30-09.33.37:501][ 18]LogNet: Login request: ?Name=LAPTOP-TJ19799S-D28B456A43FF6397EC3D31AC468B4106 userId: NULL:LAPTOP-TJ19799S-D28B456A43FF6397EC3D31AC468B4106 platform: NULL
+[2022.11.30-09.33.37:507][ 18]LogActor: Warning: SetReplicates called on non-initialized actor BP_BaseballBat_C_0. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2022.11.30-09.33.37:510][ 18]LogNet: Welcomed by server (Level: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap, Game: /Game/BluePrints/BP_ZombieGamemode.BP_ZombieGamemode_C)
+[2022.11.30-09.33.37:510][ 18]LogLoad: LoadMap: 127.0.0.1:17777/Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap?game=/Game/BluePrints/BP_ZombieGamemode.BP_ZombieGamemode_C
+[2022.11.30-09.33.37:510][ 18]LogWorld: BeginTearingDown for /Temp/Untitled_2
+[2022.11.30-09.33.37:510][ 18]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.11.30-09.33.37:510][ 18]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.30-09.33.37:519][ 18]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.30-09.33.37:522][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2022.11.30-09.33.37:546][ 18]LogAudio: Display: Audio Device (ID: 3) registered with world 'FirstPersonExampleMap'.
+[2022.11.30-09.33.37:548][ 18]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.11.30-09.33.37:552][ 18]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2022.11.30-09.33.37
+[2022.11.30-09.33.37:553][ 18]LogWorld: Bringing up level for play took: 0.003153
+[2022.11.30-09.33.37:553][ 18]LogLoad: Took 0.043145 seconds to LoadMap(/Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap)
+[2022.11.30-09.33.37:554][ 18]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2022.11.30-09.33.37:608][ 19]LogNet: Client netspeed is 100000
+[2022.11.30-09.33.37:609][ 19]LogNet: Join request: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap?Name=LAPTOP-TJ19799S-D28B456A43FF6397EC3D31AC468B4106?SplitscreenCount=1
+[2022.11.30-09.33.37:609][ 19]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.11.30-09.33.37:611][ 19]LogActor: Warning: SetReplicates called on non-initialized actor BP_Pistol_C_1. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2022.11.30-09.33.37:612][ 19]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.37:612][ 19]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.37:612][ 19]LogActor: Warning: SetReplicates called on non-initialized actor BP_BaseballBat_C_1. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2022.11.30-09.33.37:612][ 19]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.37:613][ 19]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.37:613][ 19]LogNet: Join succeeded: LAPTOP-TJ19799S-D28B
+[2022.11.30-09.33.37:618][ 19]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.11.30-09.33.37:618][ 19]LogActor: Warning: SetReplicates called on non-initialized actor BP_Pistol_C_1. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2022.11.30-09.33.37:619][ 19]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.37:619][ 19]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.37:619][ 19]LogActor: Warning: SetReplicates called on non-initialized actor BP_BaseballBat_C_1. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2022.11.30-09.33.37:621][ 19]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.37:656][ 20]LogActor: Warning: SetReplicates called on non-initialized actor BP_Pistol_C_0. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2022.11.30-09.33.37:656][ 20]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.37:656][ 20]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.37:657][ 20]LogActor: Warning: SetReplicates called on non-initialized actor BP_BaseballBat_C_0. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2022.11.30-09.33.37:687][ 21]LogActor: Warning: SetReplicates called on non-initialized actor BP_BaseballBat_C_1. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2022.11.30-09.33.37:688][ 21]LogActor: Warning: SetReplicates called on non-initialized actor BP_Pistol_C_1. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2022.11.30-09.33.37:689][ 21]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.37:689][ 21]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.37:692][ 21]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.11.30-09.33.37:693][ 21]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.37:720][ 22]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:290][ 53]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:294][ 53]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:304][ 54]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:308][ 54]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:329][ 55]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:333][ 55]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:344][ 56]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:348][ 56]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:361][ 57]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:366][ 57]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:377][ 58]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:382][ 58]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:394][ 59]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:398][ 59]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:415][ 60]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:418][ 60]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:430][ 61]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:434][ 61]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:447][ 62]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:451][ 62]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:463][ 63]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:467][ 63]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.11.30-09.33.38:468][ 63]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:481][ 64]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:485][ 64]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:498][ 65]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:502][ 65]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:517][ 66]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:521][ 66]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:535][ 67]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:540][ 67]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:555][ 68]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:557][ 68]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:569][ 69]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:574][ 69]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:593][ 70]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:598][ 70]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:616][ 71]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:621][ 71]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:635][ 72]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:639][ 72]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:654][ 73]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:659][ 73]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:675][ 74]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:680][ 74]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:695][ 75]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:701][ 75]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:713][ 76]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:717][ 76]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:731][ 77]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:736][ 77]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:749][ 78]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:753][ 78]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:768][ 79]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:771][ 79]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:784][ 80]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:788][ 80]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:801][ 81]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:806][ 81]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:821][ 82]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:829][ 82]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:846][ 83]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:851][ 83]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:867][ 84]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:871][ 84]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:883][ 85]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:887][ 85]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:904][ 86]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:910][ 86]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:920][ 87]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:926][ 87]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:940][ 88]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:945][ 88]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:958][ 89]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:962][ 89]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:978][ 90]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:982][ 90]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.38:994][ 91]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.38:998][ 91]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:009][ 92]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:013][ 92]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:028][ 93]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:033][ 93]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:043][ 94]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:048][ 94]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:062][ 95]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:066][ 95]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:077][ 96]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:081][ 96]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:093][ 97]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:097][ 97]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:111][ 98]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:115][ 98]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:126][ 99]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:130][ 99]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:144][100]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:148][100]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:159][101]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:163][101]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:177][102]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:181][102]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:194][103]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:199][103]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:209][104]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:214][104]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:227][105]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:231][105]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:243][106]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:246][106]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:259][107]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:264][107]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:276][108]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:279][108]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:293][109]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:298][109]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:309][110]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:314][110]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:333][111]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:336][111]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:349][112]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:353][112]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:364][113]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:368][113]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:381][114]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:385][114]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:398][115]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:403][115]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:414][116]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:418][116]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:435][117]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:438][117]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:450][118]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:453][118]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:467][119]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:471][119]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:483][120]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:488][120]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:499][121]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:502][121]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:519][122]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:524][122]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:540][123]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:544][123]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:555][124]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:559][124]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:571][125]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:576][125]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:591][126]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:596][126]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:607][127]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:612][127]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:622][128]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:626][128]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:640][129]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:644][129]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:655][130]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:658][130]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:671][131]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:675][131]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:688][132]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:693][132]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:705][133]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:709][133]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:721][134]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:724][134]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:740][135]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:743][135]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:756][136]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:759][136]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:772][137]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:776][137]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:790][138]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:794][138]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:808][139]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:812][139]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:823][140]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:828][140]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:843][141]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:847][141]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:856][142]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:860][142]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:874][143]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:877][143]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:892][144]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:896][144]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:907][145]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:911][145]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:923][146]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:927][146]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:939][147]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:943][147]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:957][148]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:961][148]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:973][149]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:975][149]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.39:988][150]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.39:994][150]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.40:005][151]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.40:008][151]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.40:025][152]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.40:038][153]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.40:042][153]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.40:058][154]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.40:076][155]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.40:093][156]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.40:108][157]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.40:126][158]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.40:143][159]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.40:159][160]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.40:174][161]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.40:191][162]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.40:208][163]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.40:224][164]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.40:241][165]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.40:258][166]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.40:275][167]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.40:292][168]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.40:308][169]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.40:426][176]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.40:440][177]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.40:445][177]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.40:460][178]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.40:465][178]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.40:477][179]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.40:481][179]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.40:493][180]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.40:496][180]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.40:509][181]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.40:512][181]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.33.40:525][182]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.33.49:150][675]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.11.30-09.33.49:831][699]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.30-09.33.49:831][699]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap
+[2022.11.30-09.33.49:832][699]LogSlate: Window 'MultiplayerPrototype Preview [NetMode: Client 2]  (64-bit/Windows) ' being destroyed
+[2022.11.30-09.33.49:837][699]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.30-09.33.49:837][699]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.30-09.33.49:846][699]LogNet: World NetDriver shutdown IpNetDriver_2 [GameNetDriver]
+[2022.11.30-09.33.49:846][699]LogNet: DestroyNamedNetDriver IpNetDriver_2 [GameNetDriver]
+[2022.11.30-09.33.49:847][699]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_2, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:LAPTOP-TJ19799S-D28B456A43FF6397EC3D31AC468B4106, Channels: 16, Time: 2022.11.30-09.33.49
+[2022.11.30-09.33.49:847][699]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_2, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:LAPTOP-TJ19799S-D28B456A43FF6397EC3D31AC468B4106
+[2022.11.30-09.33.49:847][699]LogExit: GameNetDriver IpNetDriver_2 shut down
+[2022.11.30-09.33.49:849][699]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap
+[2022.11.30-09.33.49:849][699]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.30-09.33.49:849][699]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.30-09.33.49:850][699]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.30-09.33.49:857][699]LogNet: World NetDriver shutdown IpNetDriver_1 [GameNetDriver]
+[2022.11.30-09.33.49:857][699]LogNet: DestroyNamedNetDriver IpNetDriver_1 [GameNetDriver]
+[2022.11.30-09.33.49:857][699]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:LAPTOP-TJ19799S-4EA8705B4C1F553B2A4C84A12C4BBADC, Channels: 16, Time: 2022.11.30-09.33.49
+[2022.11.30-09.33.49:857][699]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:LAPTOP-TJ19799S-4EA8705B4C1F553B2A4C84A12C4BBADC
+[2022.11.30-09.33.49:857][699]LogExit: GameNetDriver IpNetDriver_1 shut down
+[2022.11.30-09.33.49:859][699]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.11.30-09.33.49:860][699]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.30-09.33.49:860][699]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.30-09.33.49:860][699]LogNet: World NetDriver shutdown IpNetDriver_0 [GameNetDriver]
+[2022.11.30-09.33.49:860][699]LogNet: DestroyNamedNetDriver IpNetDriver_0 [GameNetDriver]
+[2022.11.30-09.33.49:861][699]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:61229, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:LAPTOP-TJ19799S-D28B456A43FF6397EC3D31AC468B4106
+[2022.11.30-09.33.49:861][699]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:61229, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:LAPTOP-TJ19799S-D28B456A43FF6397EC3D31AC468B4106, Channels: 16, Time: 2022.11.30-09.33.49
+[2022.11.30-09.33.49:861][699]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61229, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:LAPTOP-TJ19799S-D28B456A43FF6397EC3D31AC468B4106
+[2022.11.30-09.33.49:861][699]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:61228, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_0, Owner: PlayerController_0, UniqueId: NULL:LAPTOP-TJ19799S-4EA8705B4C1F553B2A4C84A12C4BBADC
+[2022.11.30-09.33.49:861][699]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:61228, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_0, Owner: PlayerController_0, UniqueId: NULL:LAPTOP-TJ19799S-4EA8705B4C1F553B2A4C84A12C4BBADC, Channels: 16, Time: 2022.11.30-09.33.49
+[2022.11.30-09.33.49:861][699]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61228, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_0, Owner: PlayerController_0, UniqueId: NULL:LAPTOP-TJ19799S-4EA8705B4C1F553B2A4C84A12C4BBADC
+[2022.11.30-09.33.49:862][699]LogExit: GameNetDriver IpNetDriver_0 shut down
+[2022.11.30-09.33.49:863][699]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.30-09.33.49:865][699]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.30-09.33.49:872][699]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.30-09.33.49:873][699]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.30-09.33.49:875][699]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.30-09.33.49:879][699]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.30-09.33.49:880][699]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.30-09.33.49:881][699]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.30-09.33.49:892][699]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2022.11.30-09.33.50:000][700]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2022.11.30-09.33.50:001][700]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2022.11.30-09.33.50:001][700]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2022.11.30-09.33.57:145][123]LogSlate: Window 'Message Log' being destroyed
+[2022.11.30-09.33.57:150][123]LogSlate: Window 'Message Log' being destroyed
+[2022.11.30-09.34.08:315][791]LogSlate: Window 'Message Log' being destroyed
+[2022.11.30-09.34.08:321][791]LogSlate: Window 'Message Log' being destroyed
+[2022.11.30-09.35.17:911][949]LogTemp: Repeating last play command: Selected Viewport
+[2022.11.30-09.35.17:925][949]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.30-09.35.17:925][949]PIE: New page: PIE session: FirstPersonExampleMap (30/11/2022, 09:35:17)
+[2022.11.30-09.35.17:925][949]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.11.30-09.35.17:942][949]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016585s)
+[2022.11.30-09.35.17:943][949]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.11.30-09.35.17:944][949]LogPlayLevel: PIE: World Init took: (0.002183s)
+[2022.11.30-09.35.17:944][949]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.019076s)
+[2022.11.30-09.35.17:953][949]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2022.11.30-09.35.17:954][949]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2022.11.30-09.35.17:954][949]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.30-09.35.17:954][949]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.30-09.35.17:954][949]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.30-09.35.17:954][949]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.30-09.35.17:954][949]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.30-09.35.17:955][949]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.11.30-09.35.17:955][949]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.30-09.35.17:955][949]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.30-09.35.17:955][949]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.30-09.35.17:956][949]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.30-09.35.17:956][949]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.30-09.35.17:956][949]LogAudioMixer: Display: Initializing audio mixer.
+[2022.11.30-09.35.17:961][949]LogAudioMixer: Display: 0: FrontLeft
+[2022.11.30-09.35.17:961][949]LogAudioMixer: Display: 1: FrontRight
+[2022.11.30-09.35.17:983][949]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.11.30-09.35.17:984][949]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.30-09.35.17:984][949]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.30-09.35.17:984][949]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.30-09.35.17:985][949]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.11.30-09.35.17:985][949]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.11.30-09.35.17:985][949]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.11.30-09.35.17:987][949]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.11.30-09.35.17:987][949]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.11.30-09.35.17:987][949]LogInit: FAudioDevice initialized.
+[2022.11.30-09.35.17:987][949]LogAudio: Display: Audio Device (ID: 4) registered with world 'FirstPersonExampleMap'.
+[2022.11.30-09.35.17:994][949]LogLoad: Game class is 'BP_ZombieGamemode_C'
+[2022.11.30-09.35.17:997][949]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2022.11.30-09.35.17
+[2022.11.30-09.35.17:997][949]LogWorld: Bringing up level for play took: 0.002907
+[2022.11.30-09.35.17:998][949]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2022.11.30-09.35.18:001][949]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2022.11.30-09.35.18:002][949]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2022.11.30-09.35.18:002][949]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2022.11.30-09.35.18:002][949]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2022.11.30-09.35.18:002][949]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2022.11.30-09.35.18:002][949]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.11.30-09.35.18:002][949]LogNet: GameNetDriver IpNetDriver_3 IpNetDriver listening on port 17777
+[2022.11.30-09.35.18:002][949]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2022.11.30-09.35.18:002][949]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2022.11.30-09.35.18:002][949]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2022.11.30-09.35.18:004][949]LogActor: Warning: SetReplicates called on non-initialized actor BP_Pistol_C_0. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2022.11.30-09.35.18:005][949]LogActor: Warning: SetReplicates called on non-initialized actor BP_BaseballBat_C_0. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2022.11.30-09.35.18:005][949]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2022.11.30-09.35.18:005][949]PIE: Server logged in
+[2022.11.30-09.35.18:006][949]PIE: Play in editor total start time 0,086 seconds.
+[2022.11.30-09.35.18:008][949]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2022.11.30-09.35.18:008][949]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.30-09.35.18:008][949]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.30-09.35.18:008][949]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.30-09.35.18:008][949]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.30-09.35.18:008][949]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.30-09.35.18:008][949]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.11.30-09.35.18:008][949]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.30-09.35.18:008][949]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.30-09.35.18:009][949]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.30-09.35.18:009][949]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.30-09.35.18:009][949]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.30-09.35.18:009][949]LogAudioMixer: Display: Initializing audio mixer.
+[2022.11.30-09.35.18:014][949]LogAudioMixer: Display: 0: FrontLeft
+[2022.11.30-09.35.18:014][949]LogAudioMixer: Display: 1: FrontRight
+[2022.11.30-09.35.18:032][949]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.11.30-09.35.18:032][949]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.30-09.35.18:032][949]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.30-09.35.18:033][949]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.30-09.35.18:033][949]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.11.30-09.35.18:033][949]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.11.30-09.35.18:033][949]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.11.30-09.35.18:035][949]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.11.30-09.35.18:035][949]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.11.30-09.35.18:035][949]LogInit: FAudioDevice initialized.
+[2022.11.30-09.35.18:035][949]LogAudio: Display: Audio Device (ID: 5) registered with world 'Untitled'.
+[2022.11.30-09.35.18:069][949]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.30-09.35.18:069][949]LogNet: Browse: 127.0.0.1:17777/Game/FirstPersonCPP/Maps/FirstPersonExampleMap
+[2022.11.30-09.35.18:070][949]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2022.11.30-09.35.18:070][949]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2022.11.30-09.35.18:070][949]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.11.30-09.35.18:070][949]LogNet: Game client on port 17777, rate 100000
+[2022.11.30-09.35.18:071][949]PIE: Client logged in
+[2022.11.30-09.35.18:073][949]PIE: Play in editor total start time 0,153 seconds.
+[2022.11.30-09.35.19:097][  4]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:52694
+[2022.11.30-09.35.19:097][  4]LogHandshake: SendConnectChallenge. Timestamp: 1.201909, Cookie: 155062203147095211029149186178226105203132173043130108212001
+[2022.11.30-09.35.19:099][  4]LogHandshake: SendChallengeResponse. Timestamp: 1.201909, Cookie: 155062203147095211029149186178226105203132173043130108212001
+[2022.11.30-09.35.19:114][  5]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:52694
+[2022.11.30-09.35.19:114][  5]LogHandshake: SendChallengeAck. InCookie: 155062203147095211029149186178226105203132173043130108212001
+[2022.11.30-09.35.19:114][  5]LogNet: Server accepting post-challenge connection from: 127.0.0.1:52694
+[2022.11.30-09.35.19:114][  5]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.11.30-09.35.19:114][  5]LogNet: NotifyAcceptedConnection: Name: FirstPersonExampleMap, TimeStamp: 11/30/22 09:35:19, [UNetConnection] RemoteAddr: 127.0.0.1:52694, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_3, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.11.30-09.35.19:114][  5]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:52694, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_3, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.11.30-09.35.19:116][  5]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: PendingNetDriver IpNetDriver_4, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.11.30-09.35.19:132][  6]LogNet: NotifyAcceptingChannel Control 0 server World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap: Accepted
+[2022.11.30-09.35.19:132][  6]LogNet: Remote platform little endian=1
+[2022.11.30-09.35.19:132][  6]LogNet: This platform little endian=1
+[2022.11.30-09.35.19:134][  6]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2022.11.30-09.35.19:150][  7]LogNet: Login request: ?Name=LAPTOP-TJ19799S-D2D1BAAC421D07FAF7FE2097381B5937 userId: NULL:LAPTOP-TJ19799S-D2D1BAAC421D07FAF7FE2097381B5937 platform: NULL
+[2022.11.30-09.35.19:152][  7]LogNet: Welcomed by server (Level: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap, Game: /Game/BluePrints/BP_ZombieGamemode.BP_ZombieGamemode_C)
+[2022.11.30-09.35.19:152][  7]LogLoad: LoadMap: 127.0.0.1:17777/Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap?game=/Game/BluePrints/BP_ZombieGamemode.BP_ZombieGamemode_C
+[2022.11.30-09.35.19:152][  7]LogWorld: BeginTearingDown for /Temp/Untitled_3
+[2022.11.30-09.35.19:152][  7]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.11.30-09.35.19:152][  7]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.30-09.35.19:159][  7]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.30-09.35.19:160][  7]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2022.11.30-09.35.19:176][  7]LogAudio: Display: Audio Device (ID: 5) registered with world 'FirstPersonExampleMap'.
+[2022.11.30-09.35.19:177][  7]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.11.30-09.35.19:184][  7]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2022.11.30-09.35.19
+[2022.11.30-09.35.19:185][  7]LogWorld: Bringing up level for play took: 0.003640
+[2022.11.30-09.35.19:185][  7]LogLoad: Took 0.034474 seconds to LoadMap(/Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap)
+[2022.11.30-09.35.19:186][  7]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2022.11.30-09.35.19:228][  8]LogNet: Client netspeed is 100000
+[2022.11.30-09.35.19:228][  8]LogNet: Join request: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap?Name=LAPTOP-TJ19799S-D2D1BAAC421D07FAF7FE2097381B5937?SplitscreenCount=1
+[2022.11.30-09.35.19:228][  8]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.11.30-09.35.19:230][  8]LogActor: Warning: SetReplicates called on non-initialized actor BP_Pistol_C_1. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2022.11.30-09.35.19:230][  8]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.35.19:230][  8]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.35.19:230][  8]LogActor: Warning: SetReplicates called on non-initialized actor BP_BaseballBat_C_1. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2022.11.30-09.35.19:230][  8]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.35.19:231][  8]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.35.19:231][  8]LogNet: Join succeeded: LAPTOP-TJ19799S-D2D1
+[2022.11.30-09.35.19:251][  9]LogActor: Warning: SetReplicates called on non-initialized actor BP_BaseballBat_C_0. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2022.11.30-09.35.19:251][  9]LogActor: Warning: SetReplicates called on non-initialized actor BP_Pistol_C_0. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2022.11.30-09.35.19:252][  9]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.35.19:252][  9]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.35.19:265][ 10]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.11.30-09.35.19:265][ 10]LogActor: Warning: SetReplicates called on non-initialized actor BP_BaseballBat_C_1. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2022.11.30-09.35.19:267][ 10]LogActor: Warning: SetReplicates called on non-initialized actor BP_Pistol_C_1. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2022.11.30-09.35.19:268][ 10]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.35.19:268][ 10]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_0)
+[2022.11.30-09.35.19:268][ 10]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.11.30-09.35.19:269][ 10]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.35.19:282][ 11]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.35.19:298][ 12]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.35.19:314][ 13]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.35.20:308][ 72]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.35.20:323][ 73]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.35.20:340][ 74]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.35.20:359][ 75]LogSkinnedMeshComp: Warning: GetSocketByName(s_weaponSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_PlayerCharacter_C_1)
+[2022.11.30-09.35.20:657][ 93]LogOutputDevice: Warning: 
+
+Script Stack (1 frames):
+FastEnemy.OnSensed
+
+[2022.11.30-09.35.20:657][ 93]LogWindows: Windows GetLastError: A operação foi concluída com êxito. (0)
+[2022.11.30-09.35.26:894][ 93]LogWindows: Error: === Critical error: ===
+[2022.11.30-09.35.26:894][ 93]LogWindows: Error: 
+[2022.11.30-09.35.26:894][ 93]LogWindows: Error: Assertion failed: (Index >= 0) & (Index < ArrayNum) [File:D:\Programs\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/Array.h] [Line: 703] 
+[2022.11.30-09.35.26:894][ 93]LogWindows: Error: Array index out of bounds: 0 from an array of size 0
+[2022.11.30-09.35.26:894][ 93]LogWindows: Error: 
+[2022.11.30-09.35.26:894][ 93]LogWindows: Error: 
+[2022.11.30-09.35.26:894][ 93]LogWindows: Error: [Callstack] 0x00007ffbdbb2cd29 KERNELBASE.dll!UnknownFunction []
+[2022.11.30-09.35.26:894][ 93]LogWindows: Error: [Callstack] 0x00007ffb69440216 UE4Editor-Core.dll!ReportAssert() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsPlatformCrashContext.cpp:1644]
+[2022.11.30-09.35.26:894][ 93]LogWindows: Error: [Callstack] 0x00007ffb69444218 UE4Editor-Core.dll!FWindowsErrorOutputDevice::Serialize() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsErrorOutputDevice.cpp:78]
+[2022.11.30-09.35.26:894][ 93]LogWindows: Error: [Callstack] 0x00007ffb6916242d UE4Editor-Core.dll!FOutputDevice::LogfImpl() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Private\Misc\OutputDevice.cpp:61]
+[2022.11.30-09.35.26:894][ 93]LogWindows: Error: [Callstack] 0x00007ffb690b6a45 UE4Editor-Core.dll!AssertFailedImplV() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Private\Misc\AssertionMacros.cpp:104]
+[2022.11.30-09.35.26:894][ 93]LogWindows: Error: [Callstack] 0x00007ffb690b80a0 UE4Editor-Core.dll!FDebug::CheckVerifyFailedImpl() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Private\Misc\AssertionMacros.cpp:461]
+[2022.11.30-09.35.26:895][ 93]LogWindows: Error: [Callstack] 0x00007ffb2919d378 UE4Editor-MultiplayerPrototype-3770.dll!DispatchCheckVerify<void,<lambda_3b425544222a8f39939431b920e82827> >() [D:\Programs\UE_4.27\Engine\Source\Runtime\Core\Public\Misc\AssertionMacros.h:165]
+[2022.11.30-09.35.26:895][ 93]LogWindows: Error: [Callstack] 0x00007ffb29187307 UE4Editor-MultiplayerPrototype-3770.dll!AFastEnemy::OnSensed() [C:\Users\sofia\Desktop\Not Dead Enough (zombie prototype)\Not Dead Enough (zombie prototype)\Not Dead Enough (zombie prototype)\Prototype\Source\MultiplayerPrototype\FastEnemy.cpp:96]
+[2022.11.30-09.35.26:895][ 93]LogWindows: Error: [Callstack] 0x00007ffb291949d6 UE4Editor-MultiplayerPrototype-3770.dll!AFastEnemy::execOnSensed() [C:\Users\sofia\Desktop\Not Dead Enough (zombie prototype)\Not Dead Enough (zombie prototype)\Not Dead Enough (zombie prototype)\Prototype\Intermediate\Build\Win64\UE4Editor\Inc\MultiplayerPrototype\FastEnemy.gen.cpp:34]
+[2022.11.30-09.35.26:895][ 93]LogWindows: Error: [Callstack] 0x00007ffb6de519c4 UE4Editor-CoreUObject.dll!UFunction::Invoke() [D:\Build\++UE4\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:5679]
+[2022.11.30-09.35.26:895][ 93]LogWindows: Error: [Callstack] 0x00007ffb6e133ca3 UE4Editor-CoreUObject.dll!UObject::ProcessEvent() [D:\Build\++UE4\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:2018]
+[2022.11.30-09.35.26:895][ 93]LogWindows: Error: [Callstack] 0x00007ffb5b26942a UE4Editor-Engine.dll!AActor::ProcessEvent() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\Actor.cpp:863]
+[2022.11.30-09.35.26:895][ 93]LogWindows: Error: [Callstack] 0x00007ffb502a935b UE4Editor-AIModule.dll!TMulticastScriptDelegate<FWeakObjectPtr>::ProcessMulticastDelegate<UObject>() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Public\UObject\ScriptDelegates.h:488]
+[2022.11.30-09.35.26:895][ 93]LogWindows: Error: [Callstack] 0x00007ffb503afc07 UE4Editor-AIModule.dll!UAIPerceptionComponent::ProcessStimuli() [D:\Build\++UE4\Sync\Engine\Source\Runtime\AIModule\Private\Perception\AIPerceptionComponent.cpp:595]
+[2022.11.30-09.35.26:895][ 93]LogWindows: Error: [Callstack] 0x00007ffb503f2e85 UE4Editor-AIModule.dll!UAIPerceptionSystem::Tick() [D:\Build\++UE4\Sync\Engine\Source\Runtime\AIModule\Private\Perception\AIPerceptionSystem.cpp:228]
+[2022.11.30-09.35.26:895][ 93]LogWindows: Error: [Callstack] 0x00007ffb5c4992f0 UE4Editor-Engine.dll!FTickableGameObject::TickObjects() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\Tickable.cpp:153]
+[2022.11.30-09.35.26:895][ 93]LogWindows: Error: [Callstack] 0x00007ffb5bb7fac0 UE4Editor-Engine.dll!UWorld::Tick() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\LevelTick.cpp:1563]
+[2022.11.30-09.35.26:895][ 93]LogWindows: Error: [Callstack] 0x00007ffb5e8a14c3 UE4Editor-UnrealEd.dll!UEditorEngine::Tick() [D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\EditorEngine.cpp:1736]
+[2022.11.30-09.35.26:895][ 93]LogWindows: Error: [Callstack] 0x00007ffb5f1a2ba6 UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() [D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\UnrealEdEngine.cpp:426]
+[2022.11.30-09.35.26:895][ 93]LogWindows: Error: [Callstack] 0x00007ff7b0ce87a0 UE4Editor.exe!FEngineLoop::Tick() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Launch\Private\LaunchEngineLoop.cpp:4921]
+[2022.11.30-09.35.26:895][ 93]LogWindows: Error: [Callstack] 0x00007ff7b0d00fcc UE4Editor.exe!GuardedMain() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Launch\Private\Launch.cpp:178]
+[2022.11.30-09.35.26:896][ 93]LogWindows: Error: [Callstack] 0x00007ff7b0d010ba UE4Editor.exe!GuardedMainWrapper() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:137]
+[2022.11.30-09.35.26:896][ 93]LogWindows: Error: [Callstack] 0x00007ff7b0d040dd UE4Editor.exe!LaunchWindowsStartup() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:273]
+[2022.11.30-09.35.26:896][ 93]LogWindows: Error: [Callstack] 0x00007ff7b0d15984 UE4Editor.exe!WinMain() [D:\Build\++UE4\Sync\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:320]
+[2022.11.30-09.35.26:896][ 93]LogWindows: Error: [Callstack] 0x00007ff7b0d1853a UE4Editor.exe!__scrt_common_main_seh() [d:\agent\_work\5\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+[2022.11.30-09.35.26:896][ 93]LogWindows: Error: [Callstack] 0x00007ffbdc3974b4 KERNEL32.DLL!UnknownFunction []
+[2022.11.30-09.35.26:896][ 93]LogWindows: Error: [Callstack] 0x00007ffbde2826a1 ntdll.dll!UnknownFunction []
+[2022.11.30-09.35.26:896][ 93]LogWindows: Error: 
+[2022.11.30-09.35.26:905][ 93]LogExit: Executing StaticShutdownAfterError
+[2022.11.30-09.35.26:908][ 93]LogWindows: FPlatformMisc::RequestExit(1)
+[2022.11.30-09.35.26:908][ 93]LogWindows: FPlatformMisc::RequestExitWithStatus(1, 3)
+[2022.11.30-09.35.26:908][ 93]LogCore: Engine exit requested (reason: Win RequestExit)
+[2022.11.30-09.35.26:914][ 93]Log file closed, 11/30/22 09:35:26

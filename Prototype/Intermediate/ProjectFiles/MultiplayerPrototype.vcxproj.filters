@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\MultiplayerPrototype.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{CD73DE07-66A2-474E-A07B-2A209EC12AC0}</UniqueIdentifier>
+      <UniqueIdentifier>{5532A0EA-1B0A-48BE-9625-BC82F1E86070}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MultiplayerPrototype.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,9 @@
     <None Include="..\..\Source\MultiplayerPrototypeEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\MultiplayerPrototype.sln.DotSettings.user" />
     <Filter Include="Config">
-      <UniqueIdentifier>{4807AE85-8385-4E43-8A20-30E5CE0880ED}</UniqueIdentifier>
+      <UniqueIdentifier>{5892F922-6455-41D2-8766-1D448FC10C1D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,8 +31,56 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\MultiplayerPrototype">
-      <UniqueIdentifier>{A4C52A86-FB12-43F5-BC1B-1A4B6DF89310}</UniqueIdentifier>
+      <UniqueIdentifier>{D0540FCC-E89D-4C60-BD6E-5AA4D820F0B3}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\MultiplayerPrototype\AssaultRifle.cpp">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiplayerPrototype\AssaultRifle.h">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MultiplayerPrototype\Axe.cpp">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiplayerPrototype\Axe.h">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MultiplayerPrototype\BaseballBat.cpp">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiplayerPrototype\BaseballBat.h">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MultiplayerPrototype\DestroyActorOnOverlap.cpp">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiplayerPrototype\DestroyActorOnOverlap.h">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MultiplayerPrototype\Enemy.cpp">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiplayerPrototype\Enemy.h">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MultiplayerPrototype\FastEnemy.cpp">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiplayerPrototype\FastEnemy.h">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MultiplayerPrototype\InteractInterface.cpp">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiplayerPrototype\InteractInterface.h">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MultiplayerPrototype\Med.cpp">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiplayerPrototype\Med.h">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </ClInclude>
     <None Include="..\..\Source\MultiplayerPrototype\MultiplayerPrototype.Build.cs">
       <Filter>Source\MultiplayerPrototype</Filter>
     </None>
@@ -65,10 +114,34 @@
     <ClInclude Include="..\..\Source\MultiplayerPrototype\MultiplayerPrototypeProjectile.h">
       <Filter>Source\MultiplayerPrototype</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\MultiplayerPrototype\Pistol.cpp">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiplayerPrototype\Pistol.h">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\MultiplayerPrototype\PlayerCharacter.cpp">
       <Filter>Source\MultiplayerPrototype</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\MultiplayerPrototype\PlayerCharacter.h">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MultiplayerPrototype\Projectile.cpp">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiplayerPrototype\Projectile.h">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MultiplayerPrototype\TankEnemy.cpp">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiplayerPrototype\TankEnemy.h">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MultiplayerPrototype\WeaponBase.cpp">
+      <Filter>Source\MultiplayerPrototype</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiplayerPrototype\WeaponBase.h">
       <Filter>Source\MultiplayerPrototype</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\MultiplayerPrototype\ZombieGamemode.cpp">

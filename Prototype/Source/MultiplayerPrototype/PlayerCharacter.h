@@ -3,8 +3,10 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "InteractInterface.h"
 #include "GameFramework/Character.h"
 #include "PlayerCharacter.generated.h"
+
 
 UCLASS()
 class MULTIPLAYERPROTOTYPE_API APlayerCharacter : public ACharacter
@@ -31,11 +33,11 @@ public:
 	UPROPERTY(VisibleDefaultsOnly, Category= Mesh)
 	class USkeletalMeshComponent* HandsMesh;
 
-	//UPROPERTY(VisibleDefaultsOnly, Category= Mesh)
-	//class USkeletalMeshComponent* GunMesh;
+	UPROPERTY(VisibleDefaultsOnly, Category= Mesh)
+	class USkeletalMeshComponent* GunMesh;
 
-	//UPROPERTY(VisibleDefaultsOnly, Category= Mesh)
-	//class USkeletalMeshComponent* MuzzleLocation;
+	UPROPERTY(VisibleDefaultsOnly, Category= Mesh)
+	class USkeletalMeshComponent* MuzzleLocation;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
 	class UCameraComponent* FirstPersonCamera;
@@ -46,27 +48,105 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
 	float TurnRate;
 
-	//UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Gameplay)
-	//FVector GunOffset;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	FVector GunOffset;
 
 protected: //functions
 
-	//void OnFire();
+	void OnFire();
+	
 	void Running();
 	void StopRunning();
 	
+	void Calling();
+	void KeyPressed();
+	
 	void MoveForward(float Value);
 	void MoveRight(float Value);
-
+	
+	void Reloading();
+	void ReloadingBullets();
+	
 	void TurnAtRate(float Rate);
 	void LookAtRate(float Rate);
+	//UFUNCTION(Server, Unreliable)
+	//void Interact();
+	UFUNCTION(Server, Unreliable)
+	void Interact();
+
+	void SwitchWeapons();
+
+	UFUNCTION()
+	void OnRep_AttachWeapon();
+
+	UFUNCTION(Server, Unreliable, WithValidation)
+	void ServerSwitchWeapon(class AWeaponBase* NewWeapon);
+
+	bool ServerSwitchWeapon_Validate(class AWeaponBase* NewWeapon);
+
+	void ServerSwitchWeapon_Implementation(class AWeaponBase* NewWeapon);
+
+public:
+	UPROPERTY(EditDefaultsOnly, Category= Projectile)
+	TSubclassOf<class AProjectile> Projectile;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category= Gameplay)
+	class USoundBase* FireSound;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Gameplay)
+	class UAnimMontage* FireAnimation;
+
+	class UAnimInstance* AnimInstance;
+
+	class UWorld* World;
+
+	FRotator SpawnRotation;
+	FVector SpawnLocation;
+
+	UPROPERTY(EditAnywhere,BlueprintReadOnly)
+	bool IsPressed;
+	
+	UPROPERTY(EditAnywhere,BlueprintReadOnly)
+	float Health = 100.0f;
+
+	void DealDamage(float DamageAmount);
+
+	UPROPERTY(EditAnywhere,BlueprintReadOnly)
+	float Points = 0.0f;
+	
+
+	UPROPERTY(EditAnywhere,BlueprintReadOnly)
+	float Bullets = 30;
+
+	UPROPERTY(EditAnywhere,BlueprintReadOnly)
+	float MaxBullets = 30;
+	
+	IInteractInterface* cachedInterface;
+
+	//For the Switch Weapon and the Replications
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<class AWeaponBase> FirstWeaponClass;
+
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<class AWeaponBase> SecondWeaponClass;
+
+	UPROPERTY(ReplicatedUsing = OnRep_AttachWeapon)
+	class AWeaponBase* CurrentWeapon;
+
+	UPROPERTY(/*Replicated*/)
+	class AWeaponBase* PreviousWeapon;
+	
+	int WeaponIndex;
+
+	UPROPERTY(Replicated)
+	TArray<AWeaponBase*> WeaponArray;;
 
 protected: //variables
 	//Normal Speed
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float WalkingSpeed;
 
-	//Speed Multiplier For When The Player Is Running
+	//Speed For When The Player Is Running
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float RunningSpeed;
 };
