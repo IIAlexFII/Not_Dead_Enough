@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\sofia\\Desktop\\Not_Dead_Enough\\Not_Dead_Enough\\Prototype\\Source\\MultiplayerPrototype\\MultiplayerPrototype.Build.cs",
-		"C:\\Users\\sofia\\Desktop\\Not_Dead_Enough\\Not_Dead_Enough\\Prototype\\Source\\MultiplayerPrototype.Target.cs",
-		"C:\\Users\\sofia\\Desktop\\Not_Dead_Enough\\Not_Dead_Enough\\Prototype\\Source\\MultiplayerPrototypeEditor.Target.cs"
+		"C:\\Users\\sofia\\Desktop\\NotDeadEnough\\Not Dead Enough\\Not_Dead_Enough\\Prototype\\Source\\MultiplayerPrototype\\MultiplayerPrototype.Build.cs",
+		"C:\\Users\\sofia\\Desktop\\NotDeadEnough\\Not Dead Enough\\Not_Dead_Enough\\Prototype\\Source\\MultiplayerPrototype.Target.cs",
+		"C:\\Users\\sofia\\Desktop\\NotDeadEnough\\Not Dead Enough\\Not_Dead_Enough\\Prototype\\Source\\MultiplayerPrototypeEditor.Target.cs"
 	],
 	"EngineVersion": "4.27.2"
 }
