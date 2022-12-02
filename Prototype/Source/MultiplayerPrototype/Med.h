@@ -26,9 +26,10 @@ protected:
 	UPROPERTY(EditAnywhere)
 	class UAnimationAsset* HealAnimation;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere,BlueprintReadWrite)
 	int MedKitCost;
 
 	UPROPERTY(EditAnywhere)
 	int Heals;
+
 };

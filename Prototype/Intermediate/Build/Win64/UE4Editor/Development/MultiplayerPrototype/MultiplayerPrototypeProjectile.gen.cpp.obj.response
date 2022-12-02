@@ -231,8 +231,8 @@
 /I Editor\Kismet\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I "C:\Users\sofia\Desktop\Not Dead Enough (zombie prototype)\Not Dead Enough (zombie prototype)\Prototype\Intermediate\Build\Win64\UE4Editor\Inc\MultiplayerPrototype"
-/I "C:\Users\sofia\Desktop\Not Dead Enough (zombie prototype)\Not Dead Enough (zombie prototype)\Prototype\Source"
+/I "C:\Users\gonga\Downloads\Not_Dead_Enough-main (4)\Not_Dead_Enough-main\Prototype\Intermediate\Build\Win64\UE4Editor\Inc\MultiplayerPrototype"
+/I "C:\Users\gonga\Downloads\Not_Dead_Enough-main (4)\Not_Dead_Enough-main\Prototype\Source"
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\MRMesh
@@ -261,17 +261,17 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.2\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"C:\Users\sofia\Desktop\Not Dead Enough (zombie prototype)\Not Dead Enough (zombie prototype)\Prototype\Intermediate\Build\Win64\MultiplayerPrototypeEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Users\sofia\Desktop\Not Dead Enough (zombie prototype)\Not Dead Enough (zombie prototype)\Prototype\Intermediate\Build\Win64\MultiplayerPrototypeEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\sofia\Desktop\Not Dead Enough (zombie prototype)\Not Dead Enough (zombie prototype)\Prototype\Intermediate\Build\Win64\MultiplayerPrototypeEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\sofia\Desktop\Not Dead Enough (zombie prototype)\Not Dead Enough (zombie prototype)\Prototype\Intermediate\Build\Win64\UE4Editor\Inc\MultiplayerPrototype\MultiplayerPrototypeProjectile.gen.cpp"
-/FI"C:\Users\sofia\Desktop\Not Dead Enough (zombie prototype)\Not Dead Enough (zombie prototype)\Prototype\Intermediate\Build\Win64\UE4Editor\Development\MultiplayerPrototype\Definitions.MultiplayerPrototype.h"
-/Fo"C:\Users\sofia\Desktop\Not Dead Enough (zombie prototype)\Not Dead Enough (zombie prototype)\Prototype\Intermediate\Build\Win64\UE4Editor\Development\MultiplayerPrototype\MultiplayerPrototypeProjectile.gen.cpp.obj"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
+/FI"C:\Users\gonga\Downloads\Not_Dead_Enough-main (4)\Not_Dead_Enough-main\Prototype\Intermediate\Build\Win64\MultiplayerPrototypeEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\Users\gonga\Downloads\Not_Dead_Enough-main (4)\Not_Dead_Enough-main\Prototype\Intermediate\Build\Win64\MultiplayerPrototypeEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\gonga\Downloads\Not_Dead_Enough-main (4)\Not_Dead_Enough-main\Prototype\Intermediate\Build\Win64\MultiplayerPrototypeEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Users\gonga\Downloads\Not_Dead_Enough-main (4)\Not_Dead_Enough-main\Prototype\Intermediate\Build\Win64\UE4Editor\Inc\MultiplayerPrototype\MultiplayerPrototypeProjectile.gen.cpp"
+/FI"C:\Users\gonga\Downloads\Not_Dead_Enough-main (4)\Not_Dead_Enough-main\Prototype\Intermediate\Build\Win64\UE4Editor\Development\MultiplayerPrototype\Definitions.MultiplayerPrototype.h"
+/Fo"C:\Users\gonga\Downloads\Not_Dead_Enough-main (4)\Not_Dead_Enough-main\Prototype\Intermediate\Build\Win64\UE4Editor\Development\MultiplayerPrototype\MultiplayerPrototypeProjectile.gen.cpp.obj"
 /TP
 /GR-
 /W4

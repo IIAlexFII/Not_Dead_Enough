@@ -102,7 +102,7 @@ void EmptyLinkFunctionForGeneratedCodeAssaultRifle() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAssaultRifle, 2054637206);
+	IMPLEMENT_CLASS(AAssaultRifle, 1011449541);
 	template<> MULTIPLAYERPROTOTYPE_API UClass* StaticClass<AAssaultRifle>()
 	{
 		return AAssaultRifle::StaticClass();

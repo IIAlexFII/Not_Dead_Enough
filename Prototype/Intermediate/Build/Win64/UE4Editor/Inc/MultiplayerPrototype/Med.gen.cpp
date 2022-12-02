@@ -84,7 +84,7 @@ void EmptyLinkFunctionForGeneratedCodeMed() {}
 		{ "ModuleRelativePath", "Med.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AMed_Statics::NewProp_MedKitCost = { "MedKitCost", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMed, MedKitCost), METADATA_PARAMS(Z_Construct_UClass_AMed_Statics::NewProp_MedKitCost_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMed_Statics::NewProp_MedKitCost_MetaData)) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AMed_Statics::NewProp_MedKitCost = { "MedKitCost", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMed, MedKitCost), METADATA_PARAMS(Z_Construct_UClass_AMed_Statics::NewProp_MedKitCost_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMed_Statics::NewProp_MedKitCost_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMed_Statics::NewProp_Heals_MetaData[] = {
 		{ "Category", "Med" },
@@ -125,7 +125,7 @@ void EmptyLinkFunctionForGeneratedCodeMed() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMed, 2387619021);
+	IMPLEMENT_CLASS(AMed, 1057976357);
 	template<> MULTIPLAYERPROTOTYPE_API UClass* StaticClass<AMed>()
 	{
 		return AMed::StaticClass();

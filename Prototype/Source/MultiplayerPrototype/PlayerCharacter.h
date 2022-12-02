@@ -56,9 +56,8 @@ protected: //functions
 	void OnFire();
 	void Running();
 	void StopRunning();
-	
-	void Calling();
-	void KeyPressed();
+	void Heal();
+	void Healing();
 	void MoveForward(float Value);
 	void MoveRight(float Value);
 	void Reloading();
@@ -69,6 +68,17 @@ protected: //functions
 	//void Interact();
 	UFUNCTION(Server, Unreliable)
 	void Interact();
+	void SwitchWeapons();
+
+	UFUNCTION()
+	void OnRep_AttachWeapon();
+
+	UFUNCTION(Server, Unreliable, WithValidation)
+	void ServerSwitchWeapon(class AWeaponBase* NewWeapon);
+
+	bool ServerSwitchWeapon_Validate(class AWeaponBase* NewWeapon);
+
+	void ServerSwitchWeapon_Implementation(class AWeaponBase* NewWeapon);
 
 
 public:
@@ -96,18 +106,57 @@ public:
 
 	void DealDamage(float DamageAmount);
 
-	UPROPERTY(EditAnywhere,BlueprintReadOnly)
+	UPROPERTY(EditAnywhere,BlueprintReadWrite)
 	float Points = 0.0f;
+
+	UPROPERTY(EditAnywhere,BlueprintReadWrite)
+	int MedkitAmount = 0;
+	
+	UPROPERTY(EditAnywhere,BlueprintReadWrite)
+   	bool ShopOpen = false;
+
+	UPROPERTY(EditAnywhere,BlueprintReadWrite)
+	bool CanShoot = true;
+	
+	UPROPERTY(EditAnywhere)
+	bool Shooting = false;
+
+	UPROPERTY(EditAnywhere)
+	bool ReloadingGun = false;
+
+	UPROPERTY(EditAnywhere)
+	bool HealingPlayer = false;
 	
 
 	UPROPERTY(EditAnywhere,BlueprintReadOnly)
 	float Bullets = 30;
 
-	UPROPERTY(EditAnywhere,BlueprintReadOnly)
-	float MaxBullets = 30;
-
+	UPROPERTY(EditAnywhere,BlueprintReadWrite)
+	float MaxBullets = 50;
+	
+	UPROPERTY(EditAnywhere,BlueprintReadWrite)
+	float temp;
 	
 	IInteractInterface* cachedInterface;
+
+	
+	//For the Switch Weapon and the Replications
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<class AWeaponBase> FirstWeaponClass;
+
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<class AWeaponBase> SecondWeaponClass;
+
+	UPROPERTY(ReplicatedUsing = OnRep_AttachWeapon)
+	class AWeaponBase* CurrentWeapon;
+
+	UPROPERTY(/*Replicated*/)
+	class AWeaponBase* PreviousWeapon;
+	
+	int WeaponIndex;
+
+	UPROPERTY(Replicated)
+	TArray<AWeaponBase*> WeaponArray;
 
 protected: //variables
 	//Normal Speed

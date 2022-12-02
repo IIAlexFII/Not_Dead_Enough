@@ -14,6 +14,9 @@
 #include "Kismet/GameplayStatics.h"
 #include "DrawDebugHelpers.h"
 #include "InteractInterface.h"
+#include "Med.h"
+#include "WeaponBase.h"
+#include "Net/UnrealNetwork.h"
 
 #include "ZombieGamemode.h"
 
@@ -53,6 +56,7 @@ APlayerCharacter::APlayerCharacter()
 	MuzzleLocation->SetRelativeLocation(FVector(0.2f,48.4f,-10.6f));
 
 	GunOffset = FVector(100.0f,0.0f,10.0f);
+	WeaponIndex = 0;
 }
 
 // Called when the game starts or when spawned
@@ -60,10 +64,30 @@ void APlayerCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 	GunMesh->AttachToComponent(HandsMesh,FAttachmentTransformRules::SnapToTargetNotIncludingScale,TEXT("GripPoint"));
-
+	GunMesh->SetHiddenInGame(true);
 	World = GetWorld();
 
 	AnimInstance = HandsMesh->GetAnimInstance();
+
+	if(HasAuthority())
+	{
+		FActorSpawnParameters SpawnParams;
+		SpawnParams.Owner = this;
+		// Spawn weapon
+		CurrentWeapon = GetWorld()->SpawnActor<AWeaponBase>(FirstWeaponClass, SpawnParams);
+		if(CurrentWeapon)
+		{
+			PreviousWeapon = CurrentWeapon;
+			WeaponArray.Add(CurrentWeapon);
+			OnRep_AttachWeapon();
+			CurrentWeapon->WeaponIsInHand(true);
+		}
+		if(AWeaponBase* Weapon = GetWorld()->SpawnActor<AWeaponBase>(SecondWeaponClass, SpawnParams))
+		{
+			Weapon->AttachToComponent(HandsMesh, FAttachmentTransformRules::SnapToTargetNotIncludingScale, FName("s_WeaponSocket"));
+			WeaponArray.Add(Weapon);
+		}
+	}
 } 
 
 // Called every frame
@@ -81,28 +105,30 @@ void APlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 	PlayerInputComponent->BindAction("Running", IE_Pressed, this, &APlayerCharacter::Running);
 	PlayerInputComponent->BindAction("Running", IE_Released, this, &APlayerCharacter::StopRunning);
 	PlayerInputComponent->BindAction("Reload", IE_Pressed, this, &APlayerCharacter::Reloading);
+	PlayerInputComponent->BindAction("Heal", IE_Pressed, this, &APlayerCharacter::Healing);
 	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &APlayerCharacter::OnFire);
 	PlayerInputComponent->BindAction("Unlock", IE_Pressed, this, &APlayerCharacter::Interact_Implementation);
 	PlayerInputComponent->BindAxis("MoveForward", this, &APlayerCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &APlayerCharacter::MoveRight);
 	PlayerInputComponent->BindAxis("Turn", this, &APlayerCharacter::TurnAtRate);
 	PlayerInputComponent->BindAxis("LookUp", this, &APlayerCharacter::LookAtRate);
+	PlayerInputComponent->BindAction("SwitchWeapons", IE_Pressed,this, &APlayerCharacter::SwitchWeapons);
 }
 
 void APlayerCharacter::OnFire()
 {
 	if(World != NULL)
 	{
-		if(Bullets != 0)
+		if(Bullets != 0 && ReloadingGun == false && HealingPlayer == false && CanShoot == true)
 		{
 			SpawnRotation = GetControlRotation();
-
+			
 			SpawnLocation = ((MuzzleLocation != nullptr) ?
 				MuzzleLocation->GetComponentLocation() :
 				GetActorLocation()) + SpawnRotation.RotateVector((GunOffset));
 
 			Bullets -= 1;
-
+			Shooting = true;
 			FActorSpawnParameters ActorSpawnParams;
 			ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
 
@@ -142,18 +168,27 @@ void APlayerCharacter::StopRunning()
 	GetCharacterMovement()->MaxWalkSpeed = WalkingSpeed;
 }
 
- void APlayerCharacter::Calling()
- {
-	// ADestroyActorOnOverlap* door = Cast<ADestroyActorOnOverlap>(World->GetFirstPlayerController()->GetCharacter());
-	// Interact_Implementation(door);
-// 	ADestroyActorOnOverlap* door = Cast<ADestroyActorOnOverlap>(AActor);
-// 	Interact_Implementation(door);
+void APlayerCharacter::Heal()
+{
+	if(Health != 100 && MedkitAmount!= 0)
+	{
+		//delete a medkit
+		MedkitAmount -= 1;
+		Health += 20;
+		HealingPlayer = false;
+	}
+	
 }
 
-void APlayerCharacter::KeyPressed()
+void APlayerCharacter::Healing()
 {
-
-	IsPressed = true;
+	if(ReloadingGun == false)
+	{
+		FTimerHandle UnusedHandle;
+		//Play Healing Animation
+		HealingPlayer = true;
+		GetWorldTimerManager().SetTimer(UnusedHandle, this, &APlayerCharacter::Heal, 2, false);
+	}
 }
 
 void APlayerCharacter::MoveForward(float Value)
@@ -174,13 +209,44 @@ void APlayerCharacter::MoveRight(float Value)
 
 void APlayerCharacter::Reloading()
 {
-	FTimerHandle UnusedHandle;
-	GetWorldTimerManager().SetTimer(UnusedHandle, this, &APlayerCharacter::ReloadingBullets, 2, false);
+	if(Bullets != 30 && HealingPlayer == false && MaxBullets!= 0)
+	{
+		FTimerHandle UnusedHandle;
+		ReloadingGun = true;
+		//Play Reload Animation
+		GetWorldTimerManager().SetTimer(UnusedHandle, this, &APlayerCharacter::ReloadingBullets, 2, false);
+	}
 }
 
 void APlayerCharacter::ReloadingBullets()
 {
-	Bullets = MaxBullets;
+	//if(HealingPlayer == false)
+	//{
+	if(MaxBullets > 0)
+	{
+		if(MaxBullets + Bullets <= 30)
+		{
+			temp = MaxBullets;
+			Bullets += MaxBullets;
+			MaxBullets -= temp;
+			
+			MaxBullets = FMath::Clamp(MaxBullets, 0.0f,160.0f);
+		
+		}
+		else
+		{
+			MaxBullets -= 30 - Bullets;
+			Bullets = 30;
+			MaxBullets = FMath::Clamp(MaxBullets, 0.0f,160.0f);
+		
+		}
+		//Bullets = 30;
+		ReloadingGun = false;
+	
+	}
+	
+
+	//}
 }
 
 void APlayerCharacter::TurnAtRate(float Rate)
@@ -193,20 +259,79 @@ void APlayerCharacter::LookAtRate(float Rate)
 	AddControllerPitchInput(Rate*LookUpRate* GetWorld()->GetDeltaSeconds());
 }
 
+void APlayerCharacter::SwitchWeapons()
+{
+	if(CurrentWeapon)
+	{
+		if(WeaponArray.Num() > WeaponIndex + 1)
+		{
+			++WeaponIndex;
+			if(AWeaponBase* NextWeapon = WeaponArray[WeaponIndex])
+			{
+				CurrentWeapon->WeaponIsInHand(false);
+				CurrentWeapon = NextWeapon;
+				CurrentWeapon->WeaponIsInHand(true);
+			}
+		}
+		else
+		{
+			WeaponIndex = 0;
+			if(AWeaponBase* NextWeapon = WeaponArray[WeaponIndex])
+			{
+				CurrentWeapon->WeaponIsInHand(false);
+				CurrentWeapon = NextWeapon;
+				CurrentWeapon->WeaponIsInHand(true);
+			}
+		}
+		ServerSwitchWeapon(CurrentWeapon);
+		//CurrentWeaponDamage = ;
+	}
+}
+void APlayerCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty> &OutLifetimeProps) const
+{
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 
+	DOREPLIFETIME(APlayerCharacter, CurrentWeapon);
+	//DOREPLIFETIME(APlayerCharacter, PreviousWeapon);
+	DOREPLIFETIME(APlayerCharacter, WeaponArray);
+	//DOREPLIFETIME(APlayerCharacter, CurrentWeapon, bIsAiming, COND_SkipOwner);
+}
 
-// void APlayerCharacter::Interact_Implementation()
-// {
-// 	FHitResult result;
-// 	cachedPawnInterface = Cast<IInteractInterface>(result.GetActor());
-// 	
-// 	if(cachedPawnInterface)
-// 	{
-// 		cachedPawnInterface->Interact(result.GetActor());
-// 	}
-// 	UE_LOG(LogTemp, Warning, TEXT("being pressed"));
-// 	
-// }
+void APlayerCharacter::OnRep_AttachWeapon()
+{
+	if(PreviousWeapon)
+	{
+		PreviousWeapon->WeaponIsInHand(false);
+	}
+	if(CurrentWeapon)
+	{
+		CurrentWeapon->WeaponIsInHand(true);
+		PreviousWeapon = CurrentWeapon;
+		
+		// First Person
+		if(IsLocallyControlled())
+		{
+			CurrentWeapon->AttachToComponent(HandsMesh, FAttachmentTransformRules::SnapToTargetNotIncludingScale, FName("s_WeaponSocket"));
+		}
+		// Third Person
+		else
+		{
+			//CurrentWeapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, FName("s_weaponSocket"));
+		}
+	}
+}
+
+bool APlayerCharacter::ServerSwitchWeapon_Validate(AWeaponBase* NewWeapon)
+{
+	return true;
+}
+
+void APlayerCharacter::ServerSwitchWeapon_Implementation(AWeaponBase* NewWeapon)
+{
+	CurrentWeapon = NewWeapon;
+	OnRep_AttachWeapon();
+}
+
 
 void APlayerCharacter::Interact_Implementation()
 {
@@ -234,24 +359,6 @@ void APlayerCharacter::Interact_Implementation()
 	
 }
 
-//void PerformInteraction()
-//{
-	//RayCast(forwa)
-
-	//AActor* Hit.GetActor()
-
-	/*if (Actor != null) {
-	 *	IInteractInterface* interactable = Cast<IInteractInterface>(Actor)
-	 *	if (interactable != nullptr) {
-	 *	interactable->Interact(this);
-	 *	}
-	 *}
-	 *
-	 **/
-
-
-
-
 void APlayerCharacter::DealDamage(float DamageAmount)
 {
 	Health -= DamageAmount;
@@ -260,50 +367,3 @@ void APlayerCharacter::DealDamage(float DamageAmount)
 		Destroy();
 	}
 }
-
-// void APlayerCharacter::Interact()
-// {
-// 	FVector Start = GetActorLocation();
-// 	FVector End = Start + FirstPersonCamera->GetForwardVector() * 200;
-// 	FCollisionQueryParams queryP;
-// 	queryP.AddIgnoredActor(this);
-// 	queryP.bTraceComplex = true;
-// 	queryP.bDebugQuery = true;
-// 	FCollisionResponseParams responseP;
-// 	responseP;
-// 	FHitResult result;
-// 	GetWorld()->LineTraceSingleByChannel(result, Start, End, ECollisionChannel::ECC_Visibility, queryP, responseP);
-//
-// 	
-// 	
-// 	if (result.bBlockingHit == true) {
-// 		
-// 		DrawDebugLine(GetWorld(), Start, result.ImpactPoint, FColor::Green, false, 1);
-// 	
-// 		if (result.GetActor()->Implements<UInteractInterface>()) {
-// 			IInteractInterface::Execute_Interact(result.GetActor(), this);
-// 		}
-// 	}
-// 	else {
-// 		DrawDebugLine(GetWorld(), Start, End, FColor::Red, false, 1);
-// 	}
-//
-// }
-
-// IInteractInterface* cachedPawnInterface = Cast<IInteractInterface>(whoInteracted);
-// if(cachedPawnInterface)
-// {
-// 	cachedPawnInterface->Interact(whoInteracted); // this needs t obe an actor not an interface
-// }
-//
-
-
-//IInteractInterface* interactable = Cast<IInteractInterface>(whoInteracted);
-
-	
-//
-// if(interactable)
-// {
-// 	interactable->Interact(whoInteracted);
-// }
-// UE_LOG(LogTemp, Warning, TEXT("being pressed"));

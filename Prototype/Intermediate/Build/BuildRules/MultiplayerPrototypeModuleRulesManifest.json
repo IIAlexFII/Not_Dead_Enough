@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\sofia\\Desktop\\Not Dead Enough (zombie prototype)\\Not Dead Enough (zombie prototype)\\Prototype\\Source\\MultiplayerPrototype\\MultiplayerPrototype.Build.cs",
-		"C:\\Users\\sofia\\Desktop\\Not Dead Enough (zombie prototype)\\Not Dead Enough (zombie prototype)\\Prototype\\Source\\MultiplayerPrototype.Target.cs",
-		"C:\\Users\\sofia\\Desktop\\Not Dead Enough (zombie prototype)\\Not Dead Enough (zombie prototype)\\Prototype\\Source\\MultiplayerPrototypeEditor.Target.cs"
+		"E:\\Not Dead Enough (shop stuff etc)\\Not_Dead_Enough-main\\Prototype\\Source\\MultiplayerPrototype\\MultiplayerPrototype.Build.cs",
+		"E:\\Not Dead Enough (shop stuff etc)\\Not_Dead_Enough-main\\Prototype\\Source\\MultiplayerPrototype.Target.cs",
+		"E:\\Not Dead Enough (shop stuff etc)\\Not_Dead_Enough-main\\Prototype\\Source\\MultiplayerPrototypeEditor.Target.cs"
 	],
 	"EngineVersion": "4.27.2"
 }

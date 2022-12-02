@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\MultiplayerPrototype.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{2C8A3728-ACE2-4945-81AC-CA3E974AAC12}</UniqueIdentifier>
+      <UniqueIdentifier>{ABF0C5C6-BD64-45AC-9EFD-7BCB0F5C9F10}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MultiplayerPrototype.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\MultiplayerPrototype.sln.DotSettings.user" />
     <Filter Include="Config">
-      <UniqueIdentifier>{EAC39A30-01FE-4F35-BD5A-696B7FB71858}</UniqueIdentifier>
+      <UniqueIdentifier>{4B91B29B-C3E9-448A-B636-BFED221A552D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -31,7 +31,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\MultiplayerPrototype">
-      <UniqueIdentifier>{75D966B2-C544-4EF1-90D4-3A79ABBFCD3E}</UniqueIdentifier>
+      <UniqueIdentifier>{2E9A1CC6-A201-41BC-9089-DBCECBBBADC8}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\MultiplayerPrototype\AssaultRifle.cpp">
       <Filter>Source\MultiplayerPrototype</Filter>

@@ -6,6 +6,16 @@
 #include "GameFramework/Actor.h"
 #include "WeaponBase.generated.h"
 
+// So that latter it's easier to do the switch weapons
+UENUM(BlueprintType)
+enum EWeaponID
+{
+	Pistol UMETA(Displayname, "Pistol"),
+	AssaultRifle UMETA(Displayname, "Assault Rifle"),
+	Axe UMETA(Displayname, "Axe"),
+	BaseballBat UMETA(Displayname, "Baseball Bat")
+};
+
 UCLASS()
 class MULTIPLAYERPROTOTYPE_API AWeaponBase : public AActor
 {
@@ -21,10 +31,18 @@ protected:
 
 public: // Functions
 	// First Element Is The Current Ammo And The Second Is The Total Ammo
-	//TArray<int> GetCurrentAmmo(); //Don't include
+	//TArray<int> GetCurrentAmmo(); // Don't include
 
+	// So that we can hide the weapon mesh once we switch weapons
+	class USkeletalMeshComponent* GetWeaponMesh() {return WeaponMesh;}
 
-	protected: // Variables
+	// Just returns the weapon ID
+	UFUNCTION(BlueprintCallable)
+	TEnumAsByte<EWeaponID> GetWeaponID();
+
+	void WeaponIsInHand(bool InHand);
+
+protected: // Variables
 	UPROPERTY(EditAnywhere)
 	class USkeletalMeshComponent* WeaponMesh;
 
@@ -32,20 +50,23 @@ public: // Functions
 	class UAnimationAsset* AttackAnimation;
 
 	//UPROPERTY(EditAnywhere)
-	//class UAnimationAsset* ReloadAnimation; //This will be only in the Ranged Weapons
+	//class UAnimationAsset* ReloadAnimation; // This will be only in the Ranged Weapons
 
 	UPROPERTY(EditAnywhere)
 	FName WeaponName;
 	
 	//UPROPERTY(EditAnywhere) // Max Ammo Value For UI
-	//int MagazineAmmo; //Only in the Ranged Weapons
+	//int MagazineAmmo; // Only in the Ranged Weapons
 
-	//int CurrentTotalAmmo; //Only in the Ranged Weapons
-	//int CurrentAmmo; //Only in the Ranged Weapons
+	//int CurrentTotalAmmo; // Only in the Ranged Weapons
+	//int CurrentAmmo; // Only in the Ranged Weapons
 
 	UPROPERTY(EditAnywhere)
-	int Damage; //Call this Damage
+	int Damage; // Call this Damage
 
 	UPROPERTY(EditAnywhere)
 	int WeaponCost;
+	
+	UPROPERTY(EditAnywhere)
+	TEnumAsByte<EWeaponID> WeaponID;
 };

@@ -38,7 +38,7 @@ public:
     
     float SphereRadius;
   
-    UPROPERTY(EditAnywhere,BlueprintReadOnly)
+    UPROPERTY(EditAnywhere,BlueprintReadWrite)
     bool bIsOverlaping = false;
     
     

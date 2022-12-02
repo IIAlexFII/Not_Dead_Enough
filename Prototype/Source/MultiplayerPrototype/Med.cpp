@@ -10,6 +10,7 @@ AMed::AMed()
 
 	MedKitCost = 20;
 	Heals = 20;
+
 }
 
 // Called when the game starts or when spawned

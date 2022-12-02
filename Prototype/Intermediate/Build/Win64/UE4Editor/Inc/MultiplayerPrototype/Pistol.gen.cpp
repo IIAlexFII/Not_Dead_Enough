@@ -102,7 +102,7 @@ void EmptyLinkFunctionForGeneratedCodePistol() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APistol, 769145969);
+	IMPLEMENT_CLASS(APistol, 2609832416);
 	template<> MULTIPLAYERPROTOTYPE_API UClass* StaticClass<APistol>()
 	{
 		return APistol::StaticClass();

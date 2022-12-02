@@ -8,6 +8,10 @@ AWeaponBase::AWeaponBase()
 {
 	WeaponMesh = CreateDefaultSubobject<USkeletalMeshComponent>("SkeletalMeshComponent");
 
+	RootComponent = WeaponMesh;
+
+	SetReplicates(true);
+	
 	// Default values
 	WeaponName = "Default";
 	//MagazineAmmo = 30; //on ranged weapons only
@@ -20,7 +24,17 @@ AWeaponBase::AWeaponBase()
 void AWeaponBase::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	WeaponMesh->SetHiddenInGame(true);
+}
+
+TEnumAsByte<EWeaponID> AWeaponBase::GetWeaponID()
+{
+	return WeaponID;
+}
+
+void AWeaponBase::WeaponIsInHand(bool InHand)
+{
+	WeaponMesh->SetHiddenInGame(!InHand);
 }
 
 /*TArray<int> AWeaponBase::GetCurrentAmmo() //don't include this

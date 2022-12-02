@@ -13,10 +13,18 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define MULTIPLAYERPROTOTYPE_WeaponBase_generated_h
 
-#define Prototype_Source_MultiplayerPrototype_WeaponBase_h_12_SPARSE_DATA
-#define Prototype_Source_MultiplayerPrototype_WeaponBase_h_12_RPC_WRAPPERS
-#define Prototype_Source_MultiplayerPrototype_WeaponBase_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define Prototype_Source_MultiplayerPrototype_WeaponBase_h_12_INCLASS_NO_PURE_DECLS \
+#define Prototype_Source_MultiplayerPrototype_WeaponBase_h_22_SPARSE_DATA
+#define Prototype_Source_MultiplayerPrototype_WeaponBase_h_22_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetWeaponID);
+
+
+#define Prototype_Source_MultiplayerPrototype_WeaponBase_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetWeaponID);
+
+
+#define Prototype_Source_MultiplayerPrototype_WeaponBase_h_22_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAWeaponBase(); \
 	friend struct Z_Construct_UClass_AWeaponBase_Statics; \
@@ -25,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(AWeaponBase)
 
 
-#define Prototype_Source_MultiplayerPrototype_WeaponBase_h_12_INCLASS \
+#define Prototype_Source_MultiplayerPrototype_WeaponBase_h_22_INCLASS \
 private: \
 	static void StaticRegisterNativesAWeaponBase(); \
 	friend struct Z_Construct_UClass_AWeaponBase_Statics; \
@@ -34,7 +42,7 @@ public: \
 	DECLARE_SERIALIZER(AWeaponBase)
 
 
-#define Prototype_Source_MultiplayerPrototype_WeaponBase_h_12_STANDARD_CONSTRUCTORS \
+#define Prototype_Source_MultiplayerPrototype_WeaponBase_h_22_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AWeaponBase(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AWeaponBase) \
@@ -47,7 +55,7 @@ private: \
 public:
 
 
-#define Prototype_Source_MultiplayerPrototype_WeaponBase_h_12_ENHANCED_CONSTRUCTORS \
+#define Prototype_Source_MultiplayerPrototype_WeaponBase_h_22_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AWeaponBase(AWeaponBase&&); \
@@ -58,35 +66,36 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AWeaponBase)
 
 
-#define Prototype_Source_MultiplayerPrototype_WeaponBase_h_12_PRIVATE_PROPERTY_OFFSET \
+#define Prototype_Source_MultiplayerPrototype_WeaponBase_h_22_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__WeaponMesh() { return STRUCT_OFFSET(AWeaponBase, WeaponMesh); } \
 	FORCEINLINE static uint32 __PPO__AttackAnimation() { return STRUCT_OFFSET(AWeaponBase, AttackAnimation); } \
 	FORCEINLINE static uint32 __PPO__WeaponName() { return STRUCT_OFFSET(AWeaponBase, WeaponName); } \
 	FORCEINLINE static uint32 __PPO__Damage() { return STRUCT_OFFSET(AWeaponBase, Damage); } \
-	FORCEINLINE static uint32 __PPO__WeaponCost() { return STRUCT_OFFSET(AWeaponBase, WeaponCost); }
+	FORCEINLINE static uint32 __PPO__WeaponCost() { return STRUCT_OFFSET(AWeaponBase, WeaponCost); } \
+	FORCEINLINE static uint32 __PPO__WeaponID() { return STRUCT_OFFSET(AWeaponBase, WeaponID); }
 
 
-#define Prototype_Source_MultiplayerPrototype_WeaponBase_h_9_PROLOG
-#define Prototype_Source_MultiplayerPrototype_WeaponBase_h_12_GENERATED_BODY_LEGACY \
+#define Prototype_Source_MultiplayerPrototype_WeaponBase_h_19_PROLOG
+#define Prototype_Source_MultiplayerPrototype_WeaponBase_h_22_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Prototype_Source_MultiplayerPrototype_WeaponBase_h_12_PRIVATE_PROPERTY_OFFSET \
-	Prototype_Source_MultiplayerPrototype_WeaponBase_h_12_SPARSE_DATA \
-	Prototype_Source_MultiplayerPrototype_WeaponBase_h_12_RPC_WRAPPERS \
-	Prototype_Source_MultiplayerPrototype_WeaponBase_h_12_INCLASS \
-	Prototype_Source_MultiplayerPrototype_WeaponBase_h_12_STANDARD_CONSTRUCTORS \
+	Prototype_Source_MultiplayerPrototype_WeaponBase_h_22_PRIVATE_PROPERTY_OFFSET \
+	Prototype_Source_MultiplayerPrototype_WeaponBase_h_22_SPARSE_DATA \
+	Prototype_Source_MultiplayerPrototype_WeaponBase_h_22_RPC_WRAPPERS \
+	Prototype_Source_MultiplayerPrototype_WeaponBase_h_22_INCLASS \
+	Prototype_Source_MultiplayerPrototype_WeaponBase_h_22_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Prototype_Source_MultiplayerPrototype_WeaponBase_h_12_GENERATED_BODY \
+#define Prototype_Source_MultiplayerPrototype_WeaponBase_h_22_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Prototype_Source_MultiplayerPrototype_WeaponBase_h_12_PRIVATE_PROPERTY_OFFSET \
-	Prototype_Source_MultiplayerPrototype_WeaponBase_h_12_SPARSE_DATA \
-	Prototype_Source_MultiplayerPrototype_WeaponBase_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	Prototype_Source_MultiplayerPrototype_WeaponBase_h_12_INCLASS_NO_PURE_DECLS \
-	Prototype_Source_MultiplayerPrototype_WeaponBase_h_12_ENHANCED_CONSTRUCTORS \
+	Prototype_Source_MultiplayerPrototype_WeaponBase_h_22_PRIVATE_PROPERTY_OFFSET \
+	Prototype_Source_MultiplayerPrototype_WeaponBase_h_22_SPARSE_DATA \
+	Prototype_Source_MultiplayerPrototype_WeaponBase_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
+	Prototype_Source_MultiplayerPrototype_WeaponBase_h_22_INCLASS_NO_PURE_DECLS \
+	Prototype_Source_MultiplayerPrototype_WeaponBase_h_22_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -97,4 +106,9 @@ template<> MULTIPLAYERPROTOTYPE_API UClass* StaticClass<class AWeaponBase>();
 #define CURRENT_FILE_ID Prototype_Source_MultiplayerPrototype_WeaponBase_h
 
 
+#define FOREACH_ENUM_EWEAPONID(op) \
+	op(Pistol) \
+	op(AssaultRifle) \
+	op(Axe) \
+	op(BaseballBat) 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

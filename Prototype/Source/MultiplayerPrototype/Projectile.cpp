@@ -20,7 +20,7 @@ AProjectile::AProjectile()
 	CollisionSphere->InitSphereRadius(20.0f);
 
 	RootComponent = CollisionSphere;
-
+	
 	ProjectileMovement = CreateDefaultSubobject<UProjectileMovementComponent>(TEXT("Projectile Movement"));
 	ProjectileMovement->UpdatedComponent = CollisionSphere;
 	ProjectileMovement->InitialSpeed = 6000.0f;

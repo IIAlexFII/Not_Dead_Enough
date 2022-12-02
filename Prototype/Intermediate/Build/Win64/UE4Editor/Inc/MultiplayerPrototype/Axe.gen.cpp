@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeAxe() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAxe, 601837197);
+	IMPLEMENT_CLASS(AAxe, 2124875984);
 	template<> MULTIPLAYERPROTOTYPE_API UClass* StaticClass<AAxe>()
 	{
 		return AAxe::StaticClass();

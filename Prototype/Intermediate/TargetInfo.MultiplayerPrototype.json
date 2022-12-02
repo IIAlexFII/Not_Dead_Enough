@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "MultiplayerPrototype",
-			"Path": "C:\\Users\\sofia\\Desktop\\Not Dead Enough (zombie prototype)\\Not Dead Enough (zombie prototype)\\Prototype\\Source\\MultiplayerPrototype.Target.cs",
+			"Path": "C:\\Users\\gonga\\Downloads\\Not_Dead_Enough-main (4)\\Not_Dead_Enough-main\\Prototype\\Source\\MultiplayerPrototype.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "MultiplayerPrototypeEditor",
-			"Path": "C:\\Users\\sofia\\Desktop\\Not Dead Enough (zombie prototype)\\Not Dead Enough (zombie prototype)\\Prototype\\Source\\MultiplayerPrototypeEditor.Target.cs",
+			"Path": "C:\\Users\\gonga\\Downloads\\Not_Dead_Enough-main (4)\\Not_Dead_Enough-main\\Prototype\\Source\\MultiplayerPrototypeEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

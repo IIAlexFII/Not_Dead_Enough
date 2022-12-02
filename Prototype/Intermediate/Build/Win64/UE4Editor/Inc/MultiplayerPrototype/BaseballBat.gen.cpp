@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseballBat() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABaseballBat, 59200770);
+	IMPLEMENT_CLASS(ABaseballBat, 1847155056);
 	template<> MULTIPLAYERPROTOTYPE_API UClass* StaticClass<ABaseballBat>()
 	{
 		return ABaseballBat::StaticClass();

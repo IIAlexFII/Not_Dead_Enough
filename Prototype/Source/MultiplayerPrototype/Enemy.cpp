@@ -20,7 +20,7 @@ AEnemy::AEnemy()
 
 	SightConfig->SightRadius = 1250.0f;
 	SightConfig-> LoseSightRadius = 1280.0f;
-	SightConfig-> PeripheralVisionAngleDegrees = 90.0f;
+	SightConfig-> PeripheralVisionAngleDegrees = 360.0f;
 	SightConfig->DetectionByAffiliation.bDetectEnemies = true;
 	SightConfig->DetectionByAffiliation.bDetectFriendlies = true;
 	SightConfig->DetectionByAffiliation.bDetectNeutrals = true;
